@@ -1,0 +1,33 @@
+{
+    "_app_title": "Sea of Thieves Rich Presence",
+    "_app_description": "An open-source rich presence app for Sea of Thieves",
+    "_app_developer": "Made by {developer}",
+
+    "_ship":"Ship",
+    "_no_ship_selected":"No ship selected",
+    "_ship_select_button":"Select a ship",
+
+    "_activity":"Activity",
+    "_no_activity_selected":"No activity selected",
+    "_activity_select_button":"Select an activity",
+
+    "_activity_select_title":"Select an activity",
+    "_company_select_title":"Select a company",
+    "_length": "Length",
+
+    "_back": "Back",
+
+    "_choose_your_ship":"Choose your ship",
+    "_sloop_name":"Sloop",
+    "_brigantine_name":"Brigantine",
+    "_galleon_name":"Galleon",
+    "_choose_player_number": "Choose the number of players",
+    "_number_of_players": {
+        "one": "{} player",
+        "many": "{} players",
+        "other": "{} players"
+    },
+
+    "_ship_rpc": "{ship} | {players} / {max_players} players",
+    "_ship_rpc_no_activity": "On the sea"
+}

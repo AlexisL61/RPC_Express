@@ -15,48 +15,39 @@ class ActivityWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        GestureDetector(
-          onTap: () {
-            Navigator.of(context).pop(activity);
-          },
-          child: ClipPath(
-              clipper: ActivityClipper(),
-              child: Container(
-                color: Colors.black.withOpacity(0.5),
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 8),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            onlineTr(activity.name),
-                            style: SotTextStyles.mediumWhite,
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                        SizedBox(height: 20),
-                        Image.network(activity.image, fit: BoxFit.contain),
-                        SizedBox(height: 20),
-                        _buildTime(),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(onlineTr(activity.description),
-                              style: SotTextStyles.smallWhite),
-                        ),
-                      ],
+    return Column(mainAxisSize: MainAxisSize.min, children: [
+      ClipPath(
+          clipper: ActivityClipper(),
+          child: Container(
+            color: Colors.black.withOpacity(0.5),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        onlineTr(activity.name),
+                        style: SotTextStyles.mediumWhite,
+                        textAlign: TextAlign.center,
+                      ),
                     ),
-                  ),
+                    SizedBox(height: 20),
+                    Image.network(activity.image, fit: BoxFit.contain),
+                    SizedBox(height: 20),
+                    _buildTime(),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(onlineTr(activity.description), style: SotTextStyles.smallWhite),
+                    ),
+                  ],
                 ),
-              )),
-        ),
-      ],
-    );
+              ),
+            ),
+          )),
+    ]);
   }
 
   Widget _buildTime() {

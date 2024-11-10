@@ -8,23 +8,27 @@ import 'package:games_richpresence/components/sea_of_thieves/molecules/dialogs/c
 import 'package:games_richpresence/components/sea_of_thieves/molecules/panels/large_panel.dart';
 import 'package:games_richpresence/gen/assets.gen.dart';
 import 'package:games_richpresence/model/class/game_activities/sea_of_thieves/activity.dart';
+import 'package:games_richpresence/model/class/user_data/user_data.dart';
 import 'package:games_richpresence/model/class/user_group/sea_of_thieves/driven_ship.dart';
 import 'package:games_richpresence/model/mvvm/widget_event_observer.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/home/home_page_view_model.dart';
 
 class SeaOfThievesHomePage extends StatefulWidget {
-  const SeaOfThievesHomePage({super.key});
+  final Function(UserData) updateRpc;
+
+  const SeaOfThievesHomePage({super.key, required this.updateRpc});
 
   @override
   State<SeaOfThievesHomePage> createState() => _SeaOfThievesHomePageState();
 }
 
 class _SeaOfThievesHomePageState extends WidgetEventObserver<SeaOfThievesHomePage> {
-  SeaOfThievesHomePageViewModel viewModel = SeaOfThievesHomePageViewModel();
+  late SeaOfThievesHomePageViewModel viewModel;
 
   @override
   void initState() {
     super.initState();
+    viewModel = SeaOfThievesHomePageViewModel(updateRpc: widget.updateRpc);
     viewModel.subscribe(this);
   }
 
@@ -76,29 +80,25 @@ class _SeaOfThievesHomePageState extends WidgetEventObserver<SeaOfThievesHomePag
   }
 
   Widget _buildShipPanel() {
-    SeaOfThievesDrivenShip? drivenShip = viewModel.userData?.drivenShip;
+    SeaOfThievesDrivenShip? drivenShip = viewModel.userData.drivenShip;
     return SizedBox(
       height: 400,
       child: LargePanel(
           image: AssetImage(Assets.seaOfThieves.png.chooseShip.path),
           child: Expanded(child: SizedBox(width: 400)),
-          title: tr("_ship"),
+          title: tr("_sot_ship"),
           description: drivenShip == null
               ? tr("_no_ship_selected")
-              : tr("_${drivenShip.name}_name") + " - " + " " + plural("_number_of_players", drivenShip.players),
-          actionText: tr("_ship_select_button"),
+              : tr("_sot_${drivenShip.name}_name") + " - " + " " + plural("_number_of_players", drivenShip.players),
+          actionText: tr("_sot_ship_select_button"),
           action: () async {
-            // DrivenShip? drivenShip = await Navigator.pushNamed(context, "/choose_ship") as DrivenShip?;
-            // if (drivenShip != null) {
-            //   viewModel.setDrivenShip(drivenShip);
-            //   setState(() {});
-            // }
+            viewModel.onShipClick();
           }),
     );
   }
 
   Widget _buildActivityPanel() {
-    SeaOfThievesActivity? selectedActivity = viewModel.userData?.activity;
+    SeaOfThievesActivity? selectedActivity = viewModel.userData.activity;
     return SizedBox(
         height: 400,
         child: LargePanel(
@@ -111,11 +111,6 @@ class _SeaOfThievesHomePageState extends WidgetEventObserver<SeaOfThievesHomePag
             actionText: tr("_activity_select_button"),
             action: () async {
               viewModel.onActivityClick();
-              // Activity? selectedActivity = await Navigator.pushNamed(context, "/choose_activity_company") as Activity?;
-              // if (selectedActivity != null) {
-              //   viewModel.setActivity(selectedActivity);
-              //   setState(() {});
-              // }
             }));
   }
 }

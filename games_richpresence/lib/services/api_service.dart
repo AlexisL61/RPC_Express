@@ -4,14 +4,13 @@ import 'package:games_richpresence/model/class/game_activities/game_activity.dar
 import 'package:games_richpresence/model/class/games/game_object.dart';
 import 'package:games_richpresence/model/class/translations/available_translation.dart';
 import 'package:games_richpresence/repositories/api/api_repository.dart';
-import 'package:games_richpresence/transformers/activity/activity_transformer.dart';
 import 'package:games_richpresence/transformers/available_translations_transformer.dart';
 import 'package:get_it/get_it.dart';
 
 abstract class ApiService {
   Future<List<AvailableTranslation>> fetchAvailableTranslations();
   Future<Map<String, dynamic>> fetchSpecificTranslation(String translation);
-  Future<GameActivity> fetchActivity();
+  Future<List<GameActivity>> fetchActivities();
   void changeGame(GameObject gameObject);
 }
 
@@ -23,7 +22,6 @@ class ApiServiceImpl implements ApiService {
 
   late ApiRepository _apiRepository;
   late AvailableTranslationsTransformer _availableTranslationsTransformer;
-  late ActivityTransformer _activityTransformer;
 
   ApiServiceImpl(
       {required String baseUrl,
@@ -35,7 +33,6 @@ class ApiServiceImpl implements ApiService {
     _apiRepository = apiRepository ?? _getIt.get<ApiRepository>();
     _availableTranslationsTransformer =
         availableTranslationsTransformer ?? _getIt.get<AvailableTranslationsTransformer>();
-    _activityTransformer = _getIt.get<ActivityTransformer>();
   }
 
   @override
@@ -49,9 +46,9 @@ class ApiServiceImpl implements ApiService {
     return jsonDecode(await _apiRepository.fetch("$_baseUrl/${_gameObject.id}/translations/$translation.json"));
   }
 
-  Future<GameActivity> fetchActivity() async {
-    dynamic data = await _apiRepository.fetch("$_baseUrl/${_gameObject.id}/activity.json");
-    return _activityTransformer.fromJson(data);
+  Future<List<GameActivity>> fetchActivities() async {
+    dynamic data = await _apiRepository.fetch("$_baseUrl/${_gameObject.id}/activities.json");
+    return _gameObject.activityTransformer.fromJsonList(data);
   }
 
   void changeGame(GameObject gameObject) {

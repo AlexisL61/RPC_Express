@@ -4,13 +4,15 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:games_richpresence/components/sea_of_thieves/atoms/responsive/responsive_data.dart';
 import 'package:games_richpresence/components/sea_of_thieves/atoms/texts/styles.dart';
 import 'package:games_richpresence/components/sea_of_thieves/molecules/activities/activity_widget.dart';
+import 'package:games_richpresence/model/class/game_activities/sea_of_thieves/activity.dart';
 import 'package:games_richpresence/model/class/game_activities/sea_of_thieves/activity_category.dart';
 
 class ActivityCategoryWidget extends StatelessWidget {
   final SeaOfThievesActivityCategory activityCategory;
   final String Function(String) onlineTr;
+  final Function(SeaOfThievesActivity) onActivitySelected;
 
-  const ActivityCategoryWidget({super.key, required this.activityCategory, required this.onlineTr});
+  const ActivityCategoryWidget({super.key, required this.activityCategory, required this.onlineTr, required this.onActivitySelected});
 
   @override
   Widget build(BuildContext context) {
@@ -41,9 +43,14 @@ class ActivityCategoryWidget extends StatelessWidget {
                   itemBuilder: (context, index) =>
                   Padding(
                       padding: const EdgeInsets.all(16.0),
-                      child: ActivityWidget(
-                          activity: activityCategory.activities[index],
-                          onlineTr: onlineTr,),
+                      child: GestureDetector(
+                        onTap: () {
+                          onActivitySelected(activityCategory.activities[index]);
+                        },
+                        child: ActivityWidget(
+                            activity: activityCategory.activities[index],
+                            onlineTr: onlineTr,),
+                      ),
                     )
                   ),
             )),

@@ -16,7 +16,7 @@ dependencies:
   url_launcher: ^6.3.0
   dart_discord_rpc:
     git:
-      url: https://github.com/AlexisL61/dart_discord_rpc.git
+      url: https://github.com/alexmercerind/dart_discord_rpc.git
   http: ^1.2.0
 
 dev_dependencies:

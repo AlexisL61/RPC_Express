@@ -3,9 +3,9 @@
     "_app_description": "An open-source rich presence app for Sea of Thieves",
     "_app_developer": "Made by {developer}",
 
-    "_ship":"Ship",
+    "_sot_ship":"Ship",
     "_no_ship_selected":"No ship selected",
-    "_ship_select_button":"Select a ship",
+    "_sot_ship_select_button":"Select a ship",
 
     "_activity":"Activity",
     "_no_activity_selected":"No activity selected",
@@ -17,10 +17,10 @@
 
     "_back": "Back",
 
-    "_choose_your_ship":"Choose your ship",
-    "_sloop_name":"Sloop",
-    "_brigantine_name":"Brigantine",
-    "_galleon_name":"Galleon",
+    "_sot_choose_your_ship":"Choose your ship",
+    "_sot_sloop_name":"Sloop",
+    "_sot_brigantine_name":"Brigantine",
+    "_sot_galleon_name":"Galleon",
     "_choose_player_number": "Choose the number of players",
     "_number_of_players": {
         "one": "{} player",
@@ -28,6 +28,6 @@
         "other": "{} players"
     },
 
-    "_ship_rpc": "{ship} | {players} / {max_players} players",
-    "_ship_rpc_no_activity": "On the sea"
+    "_sot_ship_rpc": "{ship} | {players} / {max_players} players",
+    "_sot_ship_rpc_no_activity": "On the sea"
 }

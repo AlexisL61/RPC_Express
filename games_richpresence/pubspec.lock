@@ -195,10 +195,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "821b986c73e6e5712ef44993f0b5f3410d186558"
-      url: "https://github.com/AlexisL61/dart_discord_rpc.git"
+      resolved-ref: "1eeb6360342327f86b36642412e915fe714641fc"
+      url: "https://github.com/alexmercerind/dart_discord_rpc.git"
     source: git
-    version: "0.0.1"
+    version: "0.0.3"
   dart_style:
     dependency: transitive
     description:

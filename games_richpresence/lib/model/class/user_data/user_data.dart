@@ -6,4 +6,8 @@ abstract class UserData {
   String? getRpcLargeImageKey();
 
   String? getRpcLargeImageText();
+
+  String? getRpcSmallImageKey();
+
+  String? getRpcSmallImageText();
 }

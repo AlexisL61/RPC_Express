@@ -15,6 +15,7 @@ abstract class OnlineTranslationsService {
 class OnlineTranslationServiceImpl implements OnlineTranslationsService {
   final GetIt getIt = GetIt.instance;
 
+  @override
   List<AvailableTranslation> availableTranslations = [];
   Map<String, dynamic> fallbackTranslations = {};
   Map<String, dynamic> currentTranslation = {};

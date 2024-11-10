@@ -3,25 +3,24 @@ import 'package:games_richpresence/model/mvvm/view_event.dart';
 import 'package:games_richpresence/model/mvvm/view_events/update_view_event.dart';
 
 abstract class EventViewModel {
-  final List<EventObserver> _observerList = List.empty(growable: true);
+  late EventObserver? _widgetObserver = null;
 
   void subscribe(EventObserver o) {
-    if (_observerList.contains(o)) return;
-    _observerList.add(o);
+    _widgetObserver = o;
   }
 
   bool unsubscribe(EventObserver o) {
-    if (_observerList.contains(o)) {
-      _observerList.remove(o);
+    if (_widgetObserver == o) {
+      _widgetObserver = null;
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 
-  void notify([ViewEvent event = const UpdateViewEvent()]) {
-    for (var element in _observerList) {
-      element.notify(event);
+  Future<dynamic> notify([ViewEvent event = const UpdateViewEvent()]) async {
+    if (_widgetObserver != null) {
+      return await _widgetObserver?.notify(event);
     }
+    return null;
   }
 }

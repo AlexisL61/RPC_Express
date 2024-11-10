@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:http/http.dart';
 
 abstract class ApiRepository {
@@ -9,6 +7,7 @@ abstract class ApiRepository {
 class ApiRepositoryImpl extends ApiRepository {
   @override
   Future<dynamic> fetch(String url) async {
-    return jsonDecode((await get(Uri.parse(url))).body);
+    print("Fetching data from $url");
+    return (await get(Uri.parse(url))).body;
   }
 }

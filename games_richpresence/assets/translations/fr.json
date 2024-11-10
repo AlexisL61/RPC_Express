@@ -3,10 +3,6 @@
     "_app_description":"Une application open-source pour afficher votre activité Sea of Thieves sur Discord.",
     "_app_developer":"Créé par {developer}",
 
-    "_ship":"Navire",
-    "_no_ship_selected":"Aucun bateau sélectionné",
-    "_ship_select_button":"Sélectionner un bateau",
-
     "_activity":"Activité",
     "_no_activity_selected":"Aucune activité sélectionnée",
     "_activity_select_button":"Sélectionner une activité",
@@ -17,10 +13,6 @@
 
     "_back":"Retour",
 
-    "_choose_your_ship":"Choisissez votre navire",
-    "_sloop_name":"Sloop",
-    "_brigantine_name":"Brigantine",
-    "_galleon_name":"Galion",
     "_choose_player_number": "Choisissez le nombre de joueurs",
     "_number_of_players": {
         "one": "{} joueur",
@@ -28,7 +20,16 @@
         "other": "{} joueurs"
     },
 
-    "_ship_rpc": "{ship} | {players} / {max_players} joueurs",
-    "_ship_rpc_no_activity": "Sur la mer"
+    "_sot_ship_rpc": "{ship} | {players} / {max_players} joueurs",
+    "_sot_ship_rpc_no_activity": "Sur la mer",
+
+    "_sot_choose_your_ship":"Choisissez votre navire",
+    "_sot_sloop_name":"Sloop",
+    "_sot_brigantine_name":"Brigantine",
+    "_sot_galleon_name":"Galion",
+
+    "_sot_ship":"Navire",
+    "_no_ship_selected":"Aucun bateau sélectionné",
+    "_sot_ship_select_button":"Sélectionner un bateau"
 
 }

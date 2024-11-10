@@ -8,7 +8,7 @@ import 'package:games_richpresence/model/class/user_group/sea_of_thieves/ship.da
 
 class ShipButton extends StatefulWidget {
   final Function onPressed;
-  final Ship ship;
+  final SeaOfThievesShip ship;
 
   const ShipButton({super.key, required this.onPressed, required this.ship});
 
@@ -39,7 +39,7 @@ class _ShipButtonState extends State<ShipButton> {
                 ],
               ),
             ),
-            Padding(padding: EdgeInsets.only(top:8), child:NamePanel(text: tr("_${widget.ship.name}_name"))),
+            Padding(padding: EdgeInsets.only(top: 8), child: NamePanel(text: tr("_sot_${widget.ship.name}_name"))),
           ],
         ));
   }

@@ -16,6 +16,6 @@ class SeaOfThievesActivityTransformer {
   }
 
   List<SeaOfThievesActivity> fromJsonList(List<dynamic> json) {
-    return json.map((e) => SeaOfThievesActivity.fromJson(e)).toList();
+    return json.map((e) => fromJson(e)).toList();
   }
 }

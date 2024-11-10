@@ -23,6 +23,7 @@ class _GameLoadingPageState extends State<GameLoadingPage> {
             Container(
               width: 100,
               height: 100,
+              padding: EdgeInsets.all(20),
               decoration: BoxDecoration(
                   color: widget.gameObject.gameBackgroundLightColor,
                   borderRadius: BorderRadius.circular(10),

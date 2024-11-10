@@ -14,19 +14,4 @@ class SeaOfThievesActivity {
     required this.image,
     required this.rpc
   });
-
-  static SeaOfThievesActivity fromJson(Map<String, dynamic> json) {
-    return SeaOfThievesActivity(
-      id: json['id'] as String,
-      name: json['name'] as String,
-      length: json['length'] as int,
-      description: json['description'] as String,
-      image: json['image'] as String,
-      rpc: json['rpc'] as String
-    );
-  }
-
-  static List<SeaOfThievesActivity> fromJsonList(List<dynamic> json) {
-    return json.map((e) => SeaOfThievesActivity.fromJson(e)).toList();
-  }
 }

@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:games_richpresence/model/class/game_activities/the_finals/gamemode_category.dart';
 import 'package:games_richpresence/pages/home/home.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/activities/choose_activity.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/activities/choose_activity_company.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/ships/choose_ship.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/ships/choose_ship_players.dart';
+import 'package:games_richpresence/pages/the_finals/gamemodes/gamemodes_categories_page.dart';
+import 'package:games_richpresence/pages/the_finals/group/group_page.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -31,6 +34,8 @@ class _MyAppState extends State<MyApp> {
         ChooseShipPlayerRoute.route: (context) => ChooseShipPlayerRoute(),
         ChooseActivityCompanyPage.route: (context) => ChooseActivityCompanyPage(),
         ChooseActivityRoute.route: (context) => ChooseActivityRoute(),
+        TheFinalsGroupPage.route: (context) => TheFinalsGroupPage(),
+        TheFinalsGamemodesCategoriesPage.route: (context) => TheFinalsGamemodesCategoriesPage(),
       },
     );
   }

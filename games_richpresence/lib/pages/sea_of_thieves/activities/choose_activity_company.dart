@@ -39,7 +39,7 @@ class _ChooseActivityCompanyPageState extends WidgetEventObserver<ChooseActivity
             children: [
               Text(tr("_company_select_title"), style: SotTextStyles.mediumWhite),
               SizedBox(height: 20),
-              Separator(icon: Assets.seaOfThieves.icons.sloop),
+              SeaOfThievesSeparator(icon: Assets.seaOfThieves.icons.sloop),
               SizedBox(height: 40),
               Expanded(
                 child: Padding(
@@ -60,7 +60,9 @@ class _ChooseActivityCompanyPageState extends WidgetEventObserver<ChooseActivity
                                 //     await Navigator.pushNamed(context, '/choose_activity',
                                 //         arguments: ActivityService.activityCategories[index]) as Activity?);
                               },
-                              child: CompanyWidget(company: viewModel.activityCompanies[index], onlineTr: viewModel.translationService.onlineTranslate)),
+                              child: CompanyWidget(
+                                  company: viewModel.activityCompanies[index],
+                                  onlineTr: viewModel.translationService.onlineTranslate)),
                         );
                       })),
                 ),

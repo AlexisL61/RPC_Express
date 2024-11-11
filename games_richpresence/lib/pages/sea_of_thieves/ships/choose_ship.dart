@@ -38,7 +38,7 @@ class _ChooseShipState extends WidgetEventObserver<ChooseShip> {
           children: [
             Text(tr("_sot_choose_your_ship"), style: SotTextStyles.mediumWhite),
             SizedBox(height: 20),
-            Separator(icon: Assets.seaOfThieves.icons.sloop),
+            SeaOfThievesSeparator(icon: Assets.seaOfThieves.icons.sloop),
             SizedBox(height: 40),
             Row(
                 mainAxisAlignment: MainAxisAlignment.center,

@@ -29,5 +29,12 @@
     },
 
     "_sot_ship_rpc": "{ship} | {players} / {max_players} players",
-    "_sot_ship_rpc_no_activity": "On the sea"
+    "_sot_ship_rpc_no_activity": "On the sea",
+
+    "_the_finals_no_team_selected":"No group selected",
+    "_the_finals_team": "Team",
+    "_the_finals_gamemode": "Gamemode",
+    "_the_finals_no_gamemode_selected":"No gamemode selected",
+
+    "_the_finals_select_players_number": "Select your team size"
 }

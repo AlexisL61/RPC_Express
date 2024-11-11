@@ -66,7 +66,7 @@ class _SeaOfThievesHomePageState extends WidgetEventObserver<SeaOfThievesHomePag
     return Column(children: [
       Text(tr("_app_title"), style: SotTextStyles.mediumWhite),
       SizedBox(height: 20),
-      Separator(icon: Assets.seaOfThieves.icons.sloop),
+      SeaOfThievesSeparator(icon: Assets.seaOfThieves.icons.sloop),
       SizedBox(height: 40),
     ]);
   }
@@ -83,7 +83,7 @@ class _SeaOfThievesHomePageState extends WidgetEventObserver<SeaOfThievesHomePag
     SeaOfThievesDrivenShip? drivenShip = viewModel.userData.drivenShip;
     return SizedBox(
       height: 400,
-      child: LargePanel(
+      child: SeaOfThievesLargePanel(
           image: AssetImage(Assets.seaOfThieves.png.chooseShip.path),
           child: Expanded(child: SizedBox(width: 400)),
           title: tr("_sot_ship"),
@@ -101,7 +101,7 @@ class _SeaOfThievesHomePageState extends WidgetEventObserver<SeaOfThievesHomePag
     SeaOfThievesActivity? selectedActivity = viewModel.userData.activity;
     return SizedBox(
         height: 400,
-        child: LargePanel(
+        child: SeaOfThievesLargePanel(
             image: AssetImage(Assets.seaOfThieves.png.chooseActivity.path),
             child: Expanded(child: SizedBox(width: 400)),
             title: tr("_activity"),

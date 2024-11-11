@@ -38,7 +38,7 @@ class _ChooseShipPlayersPageState extends State<ChooseShipPlayersPage> {
           children: [
             Text(tr("_choose_player_number"), style: SotTextStyles.mediumWhite),
             SizedBox(height: 20),
-            Separator(icon: Assets.seaOfThieves.icons.sloop),
+            SeaOfThievesSeparator(icon: Assets.seaOfThieves.icons.sloop),
             SizedBox(height: 40),
             Row(mainAxisAlignment: MainAxisAlignment.center, children: _buildPlayersChoice()),
           ],

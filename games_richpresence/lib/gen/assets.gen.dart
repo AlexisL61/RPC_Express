@@ -33,6 +33,13 @@ class $AssetsSeaOfThievesGen {
   $AssetsSeaOfThievesSvgGen get svg => const $AssetsSeaOfThievesSvgGen();
 }
 
+class $AssetsTheFinalsGen {
+  const $AssetsTheFinalsGen();
+
+  /// Directory path: assets/the_finals/images
+  $AssetsTheFinalsImagesGen get images => const $AssetsTheFinalsImagesGen();
+}
+
 class $AssetsTranslationsGen {
   const $AssetsTranslationsGen();
 
@@ -141,6 +148,21 @@ class $AssetsSeaOfThievesSvgGen {
   /// Directory path: assets/sea_of_thieves/svg/panels
   $AssetsSeaOfThievesSvgPanelsGen get panels =>
       const $AssetsSeaOfThievesSvgPanelsGen();
+}
+
+class $AssetsTheFinalsImagesGen {
+  const $AssetsTheFinalsImagesGen();
+
+  /// File path: assets/the_finals/images/activities.jpg
+  AssetGenImage get activities =>
+      const AssetGenImage('assets/the_finals/images/activities.jpg');
+
+  /// File path: assets/the_finals/images/group.jpg
+  AssetGenImage get group =>
+      const AssetGenImage('assets/the_finals/images/group.jpg');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [activities, group];
 }
 
 class $AssetsSeaOfThievesSvgBackgroundGen {
@@ -257,6 +279,7 @@ class Assets {
 
   static const $AssetsCommonGen common = $AssetsCommonGen();
   static const $AssetsSeaOfThievesGen seaOfThieves = $AssetsSeaOfThievesGen();
+  static const $AssetsTheFinalsGen theFinals = $AssetsTheFinalsGen();
   static const $AssetsTranslationsGen translations = $AssetsTranslationsGen();
 }
 

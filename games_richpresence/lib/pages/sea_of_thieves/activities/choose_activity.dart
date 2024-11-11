@@ -49,7 +49,7 @@ class _ChooseActivityPageState extends WidgetEventObserver<ChooseActivityPage> {
             children: [
               Text(tr("_activity_select_title"), style: SotTextStyles.mediumWhite),
               SizedBox(height: 20),
-              Separator(icon: Assets.seaOfThieves.icons.sloop),
+              SeaOfThievesSeparator(icon: Assets.seaOfThieves.icons.sloop),
               SizedBox(height: 40),
               Expanded(
                 child: Padding(

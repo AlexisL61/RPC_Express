@@ -5,7 +5,7 @@ import 'package:games_richpresence/components/sea_of_thieves/atoms/colors/colors
 import 'package:games_richpresence/components/sea_of_thieves/atoms/texts/styles.dart';
 import 'package:games_richpresence/gen/assets.gen.dart';
 
-class LargePanel extends StatefulWidget {
+class SeaOfThievesLargePanel extends StatefulWidget {
   final ImageProvider image;
   final Widget child;
   final String title;
@@ -13,7 +13,7 @@ class LargePanel extends StatefulWidget {
   final String? actionText;
   final void Function()? action;
 
-  const LargePanel(
+  const SeaOfThievesLargePanel(
       {super.key,
       required this.image,
       required this.child,
@@ -23,10 +23,10 @@ class LargePanel extends StatefulWidget {
       this.action});
 
   @override
-  State<LargePanel> createState() => _LargePanelState();
+  State<SeaOfThievesLargePanel> createState() => _SeaOfThievesLargePanelState();
 }
 
-class _LargePanelState extends State<LargePanel> {
+class _SeaOfThievesLargePanelState extends State<SeaOfThievesLargePanel> {
   @override
   Widget build(BuildContext context) {
     return Stack(children: [

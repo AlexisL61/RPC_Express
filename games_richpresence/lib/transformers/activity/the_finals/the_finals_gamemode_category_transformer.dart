@@ -18,6 +18,7 @@ class TheFinalsGamemodeCategoryTransformer extends ActivityTransformer<TheFinals
       id: json['id'] as String,
       name: json['name'] as String,
       image: json['image'] as String,
+      description: json['description'] as String,
     );
   }
 

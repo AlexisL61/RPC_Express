@@ -30,6 +30,13 @@
 
     "_sot_ship":"Navire",
     "_no_ship_selected":"Aucun bateau sélectionné",
-    "_sot_ship_select_button":"Sélectionner un bateau"
+    "_sot_ship_select_button":"Sélectionner un bateau",
+
+    "_the_finals_no_team_selected":"Aucun groupe sélectionné",
+    "_the_finals_team": "Équipe",
+    "_the_finals_gamemode": "Mode de jeu",
+    "_the_finals_no_gamemode_selected":"Aucun mode de jeu sélectionné",
+
+    "_the_finals_select_players_number": "Sélectionnez le nombre de joueurs"
 
 }

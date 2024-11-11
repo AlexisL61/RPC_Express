@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:games_richpresence/model/class/game_activities/game_activity.dart';
 import 'package:games_richpresence/model/class/game_activities/sea_of_thieves/activity_category.dart';
 

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:games_richpresence/components/common/molecules/game_selection_container.dart';
+import 'package:games_richpresence/model/class/games/game_object.dart';
 import 'package:games_richpresence/model/mvvm/widget_event_observer.dart';
 import 'package:games_richpresence/pages/home/home_view_model.dart';
 import 'package:games_richpresence/pages/home/loading/game_loading.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/home/home_page.dart';
+import 'package:games_richpresence/pages/the_finals/home/home_page.dart';
 
 class HomePage extends StatefulWidget {
   final String language;
@@ -28,11 +30,7 @@ class _HomePageState extends WidgetEventObserver<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(alignment: Alignment.bottomCenter, children: [
-        viewModel.isLoadingGame
-            ? GameLoadingPage(gameObject: viewModel.selectedGame)
-            : SeaOfThievesHomePage(
-                updateRpc: viewModel.updateRpc,
-              ),
+        _buildGamePage(),
         _buildGameList(),
       ]),
     );
@@ -48,5 +46,20 @@ class _HomePageState extends WidgetEventObserver<HomePage> {
         ],
       ),
     );
+  }
+
+  Widget _buildGamePage(){
+    if (viewModel.isLoadingGame){
+      return GameLoadingPage(gameObject: viewModel.selectedGame);
+    } else {
+      switch (viewModel.selectedGame){
+        case GameObject.seaOfThieves:
+          return SeaOfThievesHomePage(updateRpc: viewModel.updateRpc);
+        case GameObject.theFinals:
+          return TheFinalsHomePage(updateRpc: viewModel.updateRpc);
+        default:
+          return Container();
+      }
+    }
   }
 }

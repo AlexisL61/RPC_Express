@@ -1,5 +1,6 @@
 import 'package:games_richpresence/model/class/game_activities/the_finals/gamemode.dart';
 import 'package:games_richpresence/model/class/game_activities/the_finals/gamemode_category.dart';
+import 'package:games_richpresence/model/mvvm/view_events/pop_route_event.dart';
 import 'package:games_richpresence/model/mvvm/view_events/push_route_event.dart';
 import 'package:games_richpresence/model/mvvm/view_model.dart';
 import 'package:games_richpresence/pages/the_finals/gamemodes/gamemodes_page.dart';
@@ -26,7 +27,7 @@ class TheFinalsGamemodesCategoriesPageViewModel extends EventViewModel {
     TheFinalsGamemode? gamemode =
         await notify(PushRouteEvent(TheFinalsGamemodesPageRoute.route, arguments: category)) as TheFinalsGamemode?;
     if (gamemode != null) {
-      notify(PushRouteEvent(TheFinalsGamemodesPageRoute.route, arguments: gamemode));
+      notify(PopRouteEvent(arguments: gamemode));
     }
   }
 }

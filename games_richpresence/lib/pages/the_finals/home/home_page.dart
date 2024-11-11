@@ -49,7 +49,9 @@ class _TheFinalsHomePageState extends WidgetEventObserver<TheFinalsHomePage> {
               ),
               SizedBox(width: 40),
               TheFinalsLargePanel(
-                description: tr("_the_finals_no_gamemode_selected"),
+                description: viewModel.userData.gamemode != null
+                    ? viewModel.translationService.onlineTranslate(viewModel.userData.gamemode!.name)
+                    : tr("_the_finals_no_gamemode_selected"),
                 title: tr("_the_finals_gamemode"),
                 image: Assets.theFinals.images.activities.path,
                 onTap: viewModel.onActivityClick,

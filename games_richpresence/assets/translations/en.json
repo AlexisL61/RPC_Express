@@ -37,5 +37,8 @@
     "_the_finals_no_gamemode_selected":"No gamemode selected",
 
     "_the_finals_select_players_number": "Select your team size",
-    "_the_finals_select_gamemode": "Select a gamemode"
+    "_the_finals_select_gamemode": "Select a gamemode",
+    "_the_finals_in_game": "In game",
+
+    "_the_final_team_rpc": "{players} / {max_players} players"
 }

@@ -1,3 +1,4 @@
+import 'package:games_richpresence/model/class/game_activities/the_finals/gamemode.dart';
 import 'package:games_richpresence/model/class/game_activities/the_finals/gamemode_category.dart';
 import 'package:games_richpresence/model/class/user_data/the_finals_user_data.dart';
 import 'package:games_richpresence/model/class/user_data/user_data.dart';
@@ -28,8 +29,8 @@ class TheFinalsHomePageViewModel extends EventViewModel {
   }
 
   void onActivityClick() async {
-    await notify(const PushRouteEvent(TheFinalsGamemodesCategoriesPage.route)) as TheFinalsGamemodeCategory?;
-    // notify();
-    // updateRpc(userData);
+    userData.gamemode = await notify(const PushRouteEvent(TheFinalsGamemodesCategoriesPage.route)) as TheFinalsGamemode?;
+    notify();
+    updateRpc(userData);
   }
 }

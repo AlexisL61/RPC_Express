@@ -38,6 +38,7 @@
     "_the_finals_no_gamemode_selected":"Aucun mode de jeu sélectionné",
 
     "_the_finals_select_players_number": "Sélectionnez le nombre de joueurs",
-    "_the_finals_select_gamemode": "Sélectionnez un mode de jeu"
+    "_the_finals_select_gamemode": "Sélectionnez un mode de jeu",
+    "_the_finals_in_game": "En jeu"
 
 }

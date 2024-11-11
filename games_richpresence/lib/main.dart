@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:games_richpresence/model/class/game_activities/the_finals/gamemode_category.dart';
 import 'package:games_richpresence/pages/home/home.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/activities/choose_activity.dart';

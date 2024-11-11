@@ -2,5 +2,29 @@
     "_ranked": "Ranked",
     "_ranked_description": "Compete against other players in a ranked match.",
     "_casual": "Casual",
-    "_casual_description": "Play a casual match with your friends."
+    "_casual_description": "Play a casual match with your friends.",
+
+    "_world_tour": "World Tour",
+    "_world_tour_description": "Compete in themed cashout.",
+    "_world_tour_rpc": "Competing in world tour",
+
+    "_ranked_cashout": "Tournament",
+    "_ranked_cashout_description": "Compete in a tournament",
+    "_ranked_cashout_rpc": "Competing in a tournament",
+
+    "_casual_quick_cash": "Quick Cash",
+    "_casual_quick_cash_description": "3v3v3 cashout",
+    "_casual_quick_cash_rpc": "In quick cashout",
+
+    "_casual_bank_it": "Bank It",
+    "_casual_bank_it_description": "Bank coins scattered throughout the arena",
+    "_casual_bank_it_rpc": "Banking coins in bank it",
+
+    "_casual_power_shift": "Power Shift",
+    "_casual_power_shift_description": "Escort a platform through the arena.",
+    "_casual_power_shift_rpc": "Escorting a platform in power shift",
+
+    "_casual_terminal_attack": "Terminal Attack",
+    "_casual_terminal_attack_description": "Take turns defending and attacking an objective",
+    "_casual_terminal_attack_rpc": "In terminal attack"
 }

@@ -28,18 +28,18 @@
         "description": "_casual_description",
         "gamemodes": [
             {
-                "id": "casual_cashout",
-                "name": "_casual_cashout",
-                "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_casual_cashout.png",
-                "description": "_casual_cashout_description",
-                "rpc": "_casual_cashout_rpc"
-            },
-            {
                 "id": "casual_quick_cash",
                 "name": "_casual_quick_cash",
                 "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_casual_quick_cash.png",
                 "description": "_casual_quick_cash_description",
                 "rpc": "_casual_quick_cash_rpc"
+            },
+            {
+                "id": "casual_bank_it",
+                "name": "_casual_bank_it",
+                "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_casual_bank_it.png",
+                "description": "_casual_bank_it_description",
+                "rpc": "_casual_bank_it_rpc"
             },
             {
                 "id": "casual_power_shift",

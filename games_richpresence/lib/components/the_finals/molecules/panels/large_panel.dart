@@ -43,7 +43,7 @@ class _TheFinalsLargePanelState extends State<TheFinalsLargePanel> {
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxHeight: 400),
               child: AspectRatio(
-                  aspectRatio: 0.75,
+                  aspectRatio: 0.70,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
@@ -53,7 +53,7 @@ class _TheFinalsLargePanelState extends State<TheFinalsLargePanel> {
                         alignment: Alignment.bottomCenter,
                         children: [
                           if (widget.image.startsWith("http"))
-                            Image.network(widget.image, fit: BoxFit.fitHeight)
+                            Image.network(widget.image, fit: BoxFit.cover)
                           else
                             Image.asset(widget.image, fit: BoxFit.fitHeight),
                           Align(

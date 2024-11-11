@@ -52,7 +52,7 @@ class _TheFinalsHomePageState extends WidgetEventObserver<TheFinalsHomePage> {
                 description: tr("_the_finals_no_gamemode_selected"),
                 title: tr("_the_finals_gamemode"),
                 image: Assets.theFinals.images.activities.path,
-                onTap: () {},
+                onTap: viewModel.onActivityClick,
               )
             ],
           ),

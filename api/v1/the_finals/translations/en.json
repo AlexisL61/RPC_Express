@@ -1,2 +1,6 @@
 {
+    "_ranked": "Ranked",
+    "_ranked_description": "Compete against other players in a ranked match.",
+    "_casual": "Casual",
+    "_casual_description": "Play a casual match with your friends."
 }

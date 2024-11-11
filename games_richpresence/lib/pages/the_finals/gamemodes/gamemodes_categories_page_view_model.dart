@@ -4,7 +4,7 @@ import 'package:games_richpresence/services/activity_service.dart';
 import 'package:games_richpresence/services/online_translation_service.dart';
 import 'package:get_it/get_it.dart';
 
-class TheFinalsGroupPageViewModel extends EventViewModel {
+class TheFinalsGamemodesCategoriesPageViewModel extends EventViewModel {
   GetIt getIt = GetIt.instance;
 
   late ActivityService _activityService;
@@ -12,7 +12,7 @@ class TheFinalsGroupPageViewModel extends EventViewModel {
 
   List<TheFinalsGamemodeCategory> gamemodeCategories = [];
 
-  TheFinalsGroupPageViewModel({ActivityService? activityService, OnlineTranslationsService? translationService}) {
+  TheFinalsGamemodesCategoriesPageViewModel({ActivityService? activityService, OnlineTranslationsService? translationService}) {
     _activityService = activityService ?? getIt.get<ActivityService>();
     this.translationService = translationService ?? getIt.get<OnlineTranslationsService>();
     gamemodeCategories = _activityService.activities.map((e) => e as TheFinalsGamemodeCategory).toList();

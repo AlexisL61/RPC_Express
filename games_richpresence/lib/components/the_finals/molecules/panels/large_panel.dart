@@ -53,7 +53,10 @@ class _TheFinalsLargePanelState extends State<TheFinalsLargePanel> {
                         fit: StackFit.expand,
                         alignment: Alignment.bottomCenter,
                         children: [
-                          Image.asset(widget.image, fit: BoxFit.fitHeight),
+                          if (widget.image.startsWith("http"))
+                            Image.network(widget.image, fit: BoxFit.fitHeight)
+                          else
+                            Image.asset(widget.image, fit: BoxFit.fitHeight),
                           Align(
                             widthFactor: 1,
                             alignment: Alignment.bottomCenter,

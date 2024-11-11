@@ -5,6 +5,8 @@ import 'package:games_richpresence/services/api_service.dart';
 import 'package:games_richpresence/services/discord_service.dart';
 import 'package:games_richpresence/services/game_change_service.dart';
 import 'package:games_richpresence/services/online_translation_service.dart';
+import 'package:games_richpresence/transformers/activity/the_finals/the_finals_gamemode_category_transformer.dart';
+import 'package:games_richpresence/transformers/activity/the_finals/the_finals_gamemode_transformer.dart';
 import 'package:games_richpresence/transformers/available_translations_transformer.dart';
 import 'package:get_it/get_it.dart';
 import 'package:games_richpresence/transformers/activity/sea_of_thieves/sea_of_thieves_activity_category_transformer.dart';
@@ -28,6 +30,8 @@ class Provider {
     getIt.registerSingleton<AvailableTranslationsTransformer>(AvailableTranslationsTransformer());
     getIt.registerSingleton<SeaOfThievesActivityTransformer>(SeaOfThievesActivityTransformer());
     getIt.registerSingleton<SeaOfThievesActivityCategoryTransformer>(SeaOfThievesActivityCategoryTransformer());
+    getIt.registerSingleton<TheFinalsGamemodeTransformer>(TheFinalsGamemodeTransformer());
+    getIt.registerSingleton<TheFinalsGamemodeCategoryTransformer>(TheFinalsGamemodeCategoryTransformer());
   }
 
   initRepositories() {

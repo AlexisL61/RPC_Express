@@ -7,6 +7,7 @@ import 'package:games_richpresence/pages/sea_of_thieves/activities/choose_activi
 import 'package:games_richpresence/pages/sea_of_thieves/ships/choose_ship.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/ships/choose_ship_players.dart';
 import 'package:games_richpresence/pages/the_finals/gamemodes/gamemodes_categories_page.dart';
+import 'package:games_richpresence/pages/the_finals/gamemodes/gamemodes_page.dart';
 import 'package:games_richpresence/pages/the_finals/group/group_page.dart';
 
 class MyApp extends StatefulWidget {
@@ -36,6 +37,7 @@ class _MyAppState extends State<MyApp> {
         ChooseActivityRoute.route: (context) => ChooseActivityRoute(),
         TheFinalsGroupPage.route: (context) => TheFinalsGroupPage(),
         TheFinalsGamemodesCategoriesPage.route: (context) => TheFinalsGamemodesCategoriesPage(),
+        TheFinalsGamemodesPageRoute.route: (context) => TheFinalsGamemodesPageRoute(),
       },
     );
   }

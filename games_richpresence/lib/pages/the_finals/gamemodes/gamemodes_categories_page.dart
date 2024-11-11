@@ -35,19 +35,28 @@ class _TheFinalsGamemodesCategoriesPageState extends WidgetEventObserver<TheFina
 
   Widget _buildCategories() {
     String Function(String) onlineTranslate = viewModel.translationService.onlineTranslate;
-    return Wrap(
-      children: List.generate(viewModel.gamemodeCategories.length, (index) {
-        TheFinalsGamemodeCategory category = viewModel.gamemodeCategories[index];
-        return Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: TheFinalsLargePanel(
-                title: onlineTranslate(category.name),
-                description: onlineTranslate(category.description),
-                image: category.image,
-                onTap: () {
-                  viewModel.onCategorySelected(category);
-                }));
-      }),
+    return Center(
+      child: ListView(
+        shrinkWrap: true,
+        children: [
+          Wrap(
+            alignment: WrapAlignment.center,
+            runAlignment: WrapAlignment.center,
+            children: List.generate(viewModel.gamemodeCategories.length, (index) {
+              TheFinalsGamemodeCategory category = viewModel.gamemodeCategories[index];
+              return Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: TheFinalsLargePanel(
+                      title: onlineTranslate(category.name),
+                      description: onlineTranslate(category.description),
+                      image: category.image,
+                      onTap: () {
+                        viewModel.onCategorySelected(category);
+                      }));
+            }),
+          )
+        ],
+      ),
     );
   }
 }

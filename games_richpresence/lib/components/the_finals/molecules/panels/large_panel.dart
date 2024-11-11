@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:games_richpresence/components/the_finals/atoms/colors/colors.dart';
-import 'package:games_richpresence/gen/assets.gen.dart';
 
 class TheFinalsLargePanel extends StatefulWidget {
   final String title;

@@ -7,7 +7,8 @@ import 'package:games_richpresence/transformers/activity/the_finals/the_finals_g
 
 enum GameObject {
   seaOfThieves("sea_of_thieves", "Sea of Thieves", "Windlass", "992744165802782741"),
-  theFinals("the_finals", "The Finals", "Poppins", "1277334180354723980");
+  theFinals("the_finals", "The Finals", "Poppins", "1277334180354723980"),
+  helldivers("helldivers", "Helldivers 2", "ChakraPetch", "1277334180354723980");
 
   final String id;
   final String name;
@@ -24,6 +25,8 @@ extension GameObjectExtension on GameObject {
         return Assets.common.icons.seaOfThievesIcon.path;
       case GameObject.theFinals:
         return Assets.common.icons.theFinalsIcon.path;
+      case GameObject.helldivers:
+        return Assets.common.icons.helldiversIcon.path;
     }
   }
 
@@ -33,6 +36,8 @@ extension GameObjectExtension on GameObject {
         return CommonColors.sotBackgroundDark;
       case GameObject.theFinals:
         return CommonColors.theFinalsBackgroundDark;
+      case GameObject.helldivers:
+        return CommonColors.sotBackgroundDark;
     }
   }
 
@@ -42,6 +47,8 @@ extension GameObjectExtension on GameObject {
         return CommonColors.sotBackgroundLight;
       case GameObject.theFinals:
         return CommonColors.theFinalsBackgroundLight;
+      case GameObject.helldivers:
+        return CommonColors.sotBackgroundLight;
     }
   }
 
@@ -50,6 +57,8 @@ extension GameObjectExtension on GameObject {
       case GameObject.seaOfThieves:
         return SeaOfThievesActivityCompanyTransformer();
       case GameObject.theFinals:
+        return TheFinalsGamemodeCategoryTransformer();
+      case GameObject.helldivers:
         return TheFinalsGamemodeCategoryTransformer();
     }
   }

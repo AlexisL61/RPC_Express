@@ -28,10 +28,9 @@ class TheFinalsUserData extends UserData {
 
   @override
   String? getRpcLargeImageText() {
-    gamemode?.name.let((name) {
+    return gamemode?.name.let((name) {
       return onlineTranslate(name);
     });
-    return null;
   }
 
   @override

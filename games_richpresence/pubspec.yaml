@@ -54,6 +54,7 @@ flutter:
     - assets/sea_of_thieves/icons/
     - assets/sea_of_thieves/separator/
     - assets/the_finals/images/
+    - assets/helldivers/images/
     - assets/translations/
 
   fonts:
@@ -63,3 +64,6 @@ flutter:
     - family: Poppins
       fonts:
         - asset: assets/the_finals/fonts/poppins.ttf
+    - family: ChakraPetch
+      fonts:
+        - asset: assets/helldivers/fonts/chakrapetch.ttf

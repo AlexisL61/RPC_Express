@@ -10,6 +10,9 @@
 class FontFamily {
   FontFamily._();
 
+  /// Font family: ChakraPetch
+  static const String chakraPetch = 'ChakraPetch';
+
   /// Font family: Poppins
   static const String poppins = 'Poppins';
 

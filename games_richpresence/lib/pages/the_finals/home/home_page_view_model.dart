@@ -1,5 +1,4 @@
 import 'package:games_richpresence/model/class/game_activities/the_finals/gamemode.dart';
-import 'package:games_richpresence/model/class/game_activities/the_finals/gamemode_category.dart';
 import 'package:games_richpresence/model/class/user_data/the_finals_user_data.dart';
 import 'package:games_richpresence/model/class/user_data/user_data.dart';
 import 'package:games_richpresence/model/class/user_group/the_finals/group.dart';

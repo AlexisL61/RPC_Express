@@ -16,6 +16,13 @@ class $AssetsCommonGen {
   $AssetsCommonIconsGen get icons => const $AssetsCommonIconsGen();
 }
 
+class $AssetsHelldiversGen {
+  const $AssetsHelldiversGen();
+
+  /// Directory path: assets/helldivers/images
+  $AssetsHelldiversImagesGen get images => const $AssetsHelldiversImagesGen();
+}
+
 class $AssetsSeaOfThievesGen {
   const $AssetsSeaOfThievesGen();
 
@@ -71,6 +78,17 @@ class $AssetsCommonIconsGen {
   /// List of all assets
   List<AssetGenImage> get values =>
       [helldiversIcon, seaOfThievesIcon, theFinalsIcon];
+}
+
+class $AssetsHelldiversImagesGen {
+  const $AssetsHelldiversImagesGen();
+
+  /// File path: assets/helldivers/images/background.png
+  AssetGenImage get background =>
+      const AssetGenImage('assets/helldivers/images/background.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [background];
 }
 
 class $AssetsSeaOfThievesIconsGen {
@@ -278,6 +296,7 @@ class Assets {
   Assets._();
 
   static const $AssetsCommonGen common = $AssetsCommonGen();
+  static const $AssetsHelldiversGen helldivers = $AssetsHelldiversGen();
   static const $AssetsSeaOfThievesGen seaOfThieves = $AssetsSeaOfThievesGen();
   static const $AssetsTheFinalsGen theFinals = $AssetsTheFinalsGen();
   static const $AssetsTranslationsGen translations = $AssetsTranslationsGen();

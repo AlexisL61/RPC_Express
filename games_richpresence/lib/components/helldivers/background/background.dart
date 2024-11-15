@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+import 'package:games_richpresence/gen/assets.gen.dart';
+
+class HelldiversBackground extends StatefulWidget {
+  final Widget child;
+
+  const HelldiversBackground({super.key, required this.child});
+
+  @override
+  State<HelldiversBackground> createState() => _HelldiversBackgroundState();
+}
+
+class _HelldiversBackgroundState extends State<HelldiversBackground> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: MediaQuery.of(context).size.width,
+      height: MediaQuery.of(context).size.height,
+      decoration: BoxDecoration(image: DecorationImage(image: Assets.helldivers.images.background.provider())),
+      child: widget.child,
+    );
+  }
+}

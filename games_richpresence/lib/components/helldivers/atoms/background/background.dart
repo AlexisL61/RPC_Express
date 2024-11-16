@@ -16,7 +16,7 @@ class _HelldiversBackgroundState extends State<HelldiversBackground> {
     return Container(
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
-      decoration: BoxDecoration(image: DecorationImage(image: Assets.helldivers.images.background.provider())),
+      decoration: BoxDecoration(color: Colors.black, image: DecorationImage(image: Assets.helldivers.images.background.provider(), opacity: 0.5, fit: BoxFit.cover)),
       child: widget.child,
     );
   }

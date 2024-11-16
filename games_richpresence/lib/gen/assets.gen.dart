@@ -21,6 +21,9 @@ class $AssetsHelldiversGen {
 
   /// Directory path: assets/helldivers/images
   $AssetsHelldiversImagesGen get images => const $AssetsHelldiversImagesGen();
+
+  /// Directory path: assets/helldivers/svg
+  $AssetsHelldiversSvgGen get svg => const $AssetsHelldiversSvgGen();
 }
 
 class $AssetsSeaOfThievesGen {
@@ -83,12 +86,59 @@ class $AssetsCommonIconsGen {
 class $AssetsHelldiversImagesGen {
   const $AssetsHelldiversImagesGen();
 
+  /// File path: assets/helldivers/images/automaton_icon.webp
+  AssetGenImage get automatonIcon =>
+      const AssetGenImage('assets/helldivers/images/automaton_icon.webp');
+
   /// File path: assets/helldivers/images/background.png
   AssetGenImage get background =>
       const AssetGenImage('assets/helldivers/images/background.png');
 
+  /// File path: assets/helldivers/images/flag.png
+  AssetGenImage get flag =>
+      const AssetGenImage('assets/helldivers/images/flag.png');
+
+  /// File path: assets/helldivers/images/helldiver.webp
+  AssetGenImage get helldiver =>
+      const AssetGenImage('assets/helldivers/images/helldiver.webp');
+
+  /// File path: assets/helldivers/images/helldiver_decorated.webp
+  AssetGenImage get helldiverDecorated =>
+      const AssetGenImage('assets/helldivers/images/helldiver_decorated.webp');
+
+  /// File path: assets/helldivers/images/starfield.webp
+  AssetGenImage get starfield =>
+      const AssetGenImage('assets/helldivers/images/starfield.webp');
+
+  /// File path: assets/helldivers/images/superhearth_icon.webp
+  AssetGenImage get superhearthIcon =>
+      const AssetGenImage('assets/helldivers/images/superhearth_icon.webp');
+
+  /// File path: assets/helldivers/images/terminid_icon.webp
+  AssetGenImage get terminidIcon =>
+      const AssetGenImage('assets/helldivers/images/terminid_icon.webp');
+
   /// List of all assets
-  List<AssetGenImage> get values => [background];
+  List<AssetGenImage> get values => [
+        automatonIcon,
+        background,
+        flag,
+        helldiver,
+        helldiverDecorated,
+        starfield,
+        superhearthIcon,
+        terminidIcon
+      ];
+}
+
+class $AssetsHelldiversSvgGen {
+  const $AssetsHelldiversSvgGen();
+
+  /// File path: assets/helldivers/svg/eagle.svg
+  String get eagle => 'assets/helldivers/svg/eagle.svg';
+
+  /// List of all assets
+  List<String> get values => [eagle];
 }
 
 class $AssetsSeaOfThievesIconsGen {

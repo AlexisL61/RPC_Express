@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:games_richpresence/components/common/molecules/game_selection_container.dart';
 import 'package:games_richpresence/model/class/games/game_object.dart';
 import 'package:games_richpresence/model/mvvm/widget_event_observer.dart';
+import 'package:games_richpresence/pages/helldivers/home/home_page.dart';
 import 'package:games_richpresence/pages/home/home_view_model.dart';
 import 'package:games_richpresence/pages/home/loading/game_loading.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/home/home_page.dart';
@@ -57,6 +58,8 @@ class _HomePageState extends WidgetEventObserver<HomePage> {
           return SeaOfThievesHomePage(updateRpc: viewModel.updateRpc);
         case GameObject.theFinals:
           return TheFinalsHomePage(updateRpc: viewModel.updateRpc);
+        case GameObject.helldivers:
+          return HelldiversHomePage(updateRpc: viewModel.updateRpc);
         default:
           return Container();
       }

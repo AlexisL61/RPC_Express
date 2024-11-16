@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:games_richpresence/pages/helldivers/activity_select/planet_select_page.dart';
 import 'package:games_richpresence/pages/home/home.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/activities/choose_activity.dart';
@@ -37,6 +38,7 @@ class _MyAppState extends State<MyApp> {
         TheFinalsGroupPage.route: (context) => TheFinalsGroupPage(),
         TheFinalsGamemodesCategoriesPage.route: (context) => TheFinalsGamemodesCategoriesPage(),
         TheFinalsGamemodesPageRoute.route: (context) => TheFinalsGamemodesPageRoute(),
+        HelldiversPlanetSelectPage.route: (context) => HelldiversPlanetSelectPage(),
       },
     );
   }

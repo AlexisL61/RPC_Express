@@ -1,10 +1,12 @@
 import 'package:games_richpresence/model/class/games/game_object.dart';
 import 'package:games_richpresence/repositories/api/api_repository.dart';
-import 'package:games_richpresence/services/activity_service.dart';
-import 'package:games_richpresence/services/api_service.dart';
-import 'package:games_richpresence/services/discord_service.dart';
-import 'package:games_richpresence/services/game_change_service.dart';
-import 'package:games_richpresence/services/online_translation_service.dart';
+import 'package:games_richpresence/services/common/activity_service.dart';
+import 'package:games_richpresence/services/common/api_service.dart';
+import 'package:games_richpresence/services/common/discord_service.dart';
+import 'package:games_richpresence/services/common/game_change_service.dart';
+import 'package:games_richpresence/services/common/online_translation_service.dart';
+import 'package:games_richpresence/services/helldivers/helldivers_api_service.dart';
+import 'package:games_richpresence/transformers/activity/helldivers/helldivers_planet_transformer.dart';
 import 'package:games_richpresence/transformers/activity/the_finals/the_finals_gamemode_category_transformer.dart';
 import 'package:games_richpresence/transformers/activity/the_finals/the_finals_gamemode_transformer.dart';
 import 'package:games_richpresence/transformers/available_translations_transformer.dart';
@@ -32,6 +34,8 @@ class Provider {
     getIt.registerSingleton<SeaOfThievesActivityCategoryTransformer>(SeaOfThievesActivityCategoryTransformer());
     getIt.registerSingleton<TheFinalsGamemodeTransformer>(TheFinalsGamemodeTransformer());
     getIt.registerSingleton<TheFinalsGamemodeCategoryTransformer>(TheFinalsGamemodeCategoryTransformer());
+    getIt.registerSingleton<HelldiversPlanetTransformer>(HelldiversPlanetTransformer(
+        biomeImageUrl: 'https://alexisl61.github.io/Games_RichPresence/assets/helldivers/biomes'));
   }
 
   initRepositories() {
@@ -39,10 +43,13 @@ class Provider {
   }
 
   initServices() {
-    getIt.registerSingleton<ApiService>(ApiServiceImpl(baseUrl: 'https://alexisl61.github.io/Games_RichPresence/api/v1', gameObject: GameObject.seaOfThieves));
+    getIt.registerSingleton<ApiService>(ApiServiceImpl(
+        baseUrl: 'https://alexisl61.github.io/Games_RichPresence/api/v1', gameObject: GameObject.seaOfThieves));
     getIt.registerSingleton<OnlineTranslationsService>(OnlineTranslationServiceImpl());
     getIt.registerSingleton<DiscordService>(DiscordServiceImpl());
     getIt.registerSingleton<ActivityService>(ActivityServiceImpl());
     getIt.registerSingleton<GameChangeService>(GameChangeServiceImpl());
+    getIt.registerSingleton<HelldiversApiService>(HelldiversApiServiceImpl(
+        baseUrl: 'https://api.helldivers2.dev/api/v1'));
   }
 }

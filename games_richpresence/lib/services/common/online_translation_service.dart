@@ -1,5 +1,5 @@
 import 'package:games_richpresence/model/class/translations/available_translation.dart';
-import 'package:games_richpresence/services/api_service.dart';
+import 'package:games_richpresence/services/common/api_service.dart';
 import 'package:get_it/get_it.dart';
 
 abstract class OnlineTranslationsService {

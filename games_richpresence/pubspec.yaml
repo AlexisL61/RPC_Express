@@ -55,7 +55,9 @@ flutter:
     - assets/sea_of_thieves/separator/
     - assets/the_finals/images/
     - assets/helldivers/images/
+    - assets/helldivers/images/difficulties/
     - assets/helldivers/svg/
+    - assets/helldivers/buttons/
     - assets/translations/
 
   fonts:

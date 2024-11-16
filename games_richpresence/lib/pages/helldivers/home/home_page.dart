@@ -4,6 +4,7 @@ import 'package:games_richpresence/components/helldivers/molecules/panels/large_
 import 'package:games_richpresence/components/helldivers/molecules/panels/planet_panel.dart';
 import 'package:games_richpresence/gen/assets.gen.dart';
 import 'package:games_richpresence/model/class/game_activities/helldivers/faction.dart';
+import 'package:games_richpresence/model/class/game_activities/helldivers/objective.dart';
 import 'package:games_richpresence/model/class/game_activities/helldivers/planets.dart';
 import 'package:games_richpresence/model/class/user_data/user_data.dart';
 import 'package:games_richpresence/model/mvvm/widget_event_observer.dart';
@@ -51,18 +52,21 @@ class _HelldiversHomePageState extends WidgetEventObserver<HelldiversHomePage> {
             children: _buildDiversCount(),
           ),
         ),
-        HelldiversLargePanel(
-          title: "GALACTIC MAP",
-          subtitle: "SUPEREARTH GALAXY",
-          description: "Select the region where you are currently fighting",
-          icon: Container(
-            width: 70,
-            height: 70,
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(50), color: Color(0xFF3F3F3F)),
-            child: Image.asset(Assets.helldivers.images.flag.path),
-          ),
-          child: Wrap(
-            children: _buildDiversCount(),
+        GestureDetector(
+          onTap: () => viewModel.onActivityClick(),
+          child: HelldiversLargePanel(
+            title: "GALACTIC MAP",
+            subtitle: "SUPEREARTH GALAXY",
+            description: "Select the region where you are currently fighting",
+            icon: Container(
+              width: 70,
+              height: 70,
+              decoration: BoxDecoration(borderRadius: BorderRadius.circular(50), color: Color(0xFF3F3F3F)),
+              child: Image.asset(Assets.helldivers.images.flag.path),
+            ),
+            child: Wrap(
+              children: _buildDiversCount(),
+            ),
           ),
         ),
         HelldiversPlanetPanel(
@@ -70,9 +74,12 @@ class _HelldiversHomePageState extends WidgetEventObserver<HelldiversHomePage> {
                 id: 145,
                 name: "GAELLIVARE",
                 sector: "Talus",
-                biomeImage: "",
+                biomeImage: "https://alexisl61.github.io/Games_RichPresence/assets/helldivers/biomes/Canyon.webp",
                 position: Position(x: 0.5, y: 0.5),
-                owner: HelldiversFactions.terminids))
+                owner: HelldiversFactions.humans,
+                objective: HelldiversObjective.defense,
+                ennemy: HelldiversFactions.automatons,
+                objectiveProgression: 0.8588 ))
       ],
     ));
   }

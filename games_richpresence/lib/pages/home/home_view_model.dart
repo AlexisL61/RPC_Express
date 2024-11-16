@@ -1,9 +1,9 @@
 import 'package:games_richpresence/model/class/games/game_object.dart';
 import 'package:games_richpresence/model/class/user_data/user_data.dart';
 import 'package:games_richpresence/model/mvvm/view_model.dart';
-import 'package:games_richpresence/services/discord_service.dart';
-import 'package:games_richpresence/services/game_change_service.dart';
-import 'package:games_richpresence/services/online_translation_service.dart';
+import 'package:games_richpresence/services/common/discord_service.dart';
+import 'package:games_richpresence/services/common/game_change_service.dart';
+import 'package:games_richpresence/services/common/online_translation_service.dart';
 import 'package:get_it/get_it.dart';
 
 class HomeViewModel extends EventViewModel {

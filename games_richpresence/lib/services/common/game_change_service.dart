@@ -1,8 +1,8 @@
 import 'package:games_richpresence/model/class/games/game_object.dart';
-import 'package:games_richpresence/services/activity_service.dart';
-import 'package:games_richpresence/services/api_service.dart';
-import 'package:games_richpresence/services/discord_service.dart';
-import 'package:games_richpresence/services/online_translation_service.dart';
+import 'package:games_richpresence/services/common/activity_service.dart';
+import 'package:games_richpresence/services/common/api_service.dart';
+import 'package:games_richpresence/services/common/discord_service.dart';
+import 'package:games_richpresence/services/common/online_translation_service.dart';
 import 'package:get_it/get_it.dart';
 
 abstract class GameChangeService {

@@ -1,4 +1,5 @@
 import 'package:games_richpresence/model/class/game_activities/helldivers/faction.dart';
+import 'package:games_richpresence/model/class/game_activities/helldivers/objective.dart';
 
 class HelldiversPlanet {
   final int id;
@@ -7,6 +8,9 @@ class HelldiversPlanet {
   final String biomeImage;
   final Position position;
   final HelldiversFactions owner;
+  final HelldiversFactions? ennemy;
+  final HelldiversObjective? objective;
+  final double? objectiveProgression;
 
   HelldiversPlanet(
       {required this.id,
@@ -14,7 +18,10 @@ class HelldiversPlanet {
       required this.sector,
       required this.biomeImage,
       required this.position,
-      required this.owner});
+      required this.owner,
+      this.ennemy,
+      this.objective,
+      this.objectiveProgression});
 }
 
 class Position {

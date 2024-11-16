@@ -6,7 +6,7 @@ import 'package:games_richpresence/model/mvvm/view_events/push_route_event.dart'
 import 'package:games_richpresence/model/mvvm/view_model.dart';
 import 'package:games_richpresence/pages/the_finals/gamemodes/gamemodes_categories_page.dart';
 import 'package:games_richpresence/pages/the_finals/group/group_page.dart';
-import 'package:games_richpresence/services/online_translation_service.dart';
+import 'package:games_richpresence/services/common/online_translation_service.dart';
 import 'package:get_it/get_it.dart';
 
 class TheFinalsHomePageViewModel extends EventViewModel {

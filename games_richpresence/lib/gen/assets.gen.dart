@@ -19,6 +19,10 @@ class $AssetsCommonGen {
 class $AssetsHelldiversGen {
   const $AssetsHelldiversGen();
 
+  /// Directory path: assets/helldivers/buttons
+  $AssetsHelldiversButtonsGen get buttons =>
+      const $AssetsHelldiversButtonsGen();
+
   /// Directory path: assets/helldivers/images
   $AssetsHelldiversImagesGen get images => const $AssetsHelldiversImagesGen();
 
@@ -83,6 +87,17 @@ class $AssetsCommonIconsGen {
       [helldiversIcon, seaOfThievesIcon, theFinalsIcon];
 }
 
+class $AssetsHelldiversButtonsGen {
+  const $AssetsHelldiversButtonsGen();
+
+  /// File path: assets/helldivers/buttons/button_background.png
+  AssetGenImage get buttonBackground =>
+      const AssetGenImage('assets/helldivers/buttons/button_background.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [buttonBackground];
+}
+
 class $AssetsHelldiversImagesGen {
   const $AssetsHelldiversImagesGen();
 
@@ -93,6 +108,14 @@ class $AssetsHelldiversImagesGen {
   /// File path: assets/helldivers/images/background.png
   AssetGenImage get background =>
       const AssetGenImage('assets/helldivers/images/background.png');
+
+  /// File path: assets/helldivers/images/defense_icon.webp
+  AssetGenImage get defenseIcon =>
+      const AssetGenImage('assets/helldivers/images/defense_icon.webp');
+
+  /// Directory path: assets/helldivers/images/difficulties
+  $AssetsHelldiversImagesDifficultiesGen get difficulties =>
+      const $AssetsHelldiversImagesDifficultiesGen();
 
   /// File path: assets/helldivers/images/flag.png
   AssetGenImage get flag =>
@@ -105,6 +128,10 @@ class $AssetsHelldiversImagesGen {
   /// File path: assets/helldivers/images/helldiver_decorated.webp
   AssetGenImage get helldiverDecorated =>
       const AssetGenImage('assets/helldivers/images/helldiver_decorated.webp');
+
+  /// File path: assets/helldivers/images/liberation_icon.webp
+  AssetGenImage get liberationIcon =>
+      const AssetGenImage('assets/helldivers/images/liberation_icon.webp');
 
   /// File path: assets/helldivers/images/starfield.webp
   AssetGenImage get starfield =>
@@ -122,9 +149,11 @@ class $AssetsHelldiversImagesGen {
   List<AssetGenImage> get values => [
         automatonIcon,
         background,
+        defenseIcon,
         flag,
         helldiver,
         helldiverDecorated,
+        liberationIcon,
         starfield,
         superhearthIcon,
         terminidIcon
@@ -231,6 +260,64 @@ class $AssetsTheFinalsImagesGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [activities, group];
+}
+
+class $AssetsHelldiversImagesDifficultiesGen {
+  const $AssetsHelldiversImagesDifficultiesGen();
+
+  /// File path: assets/helldivers/images/difficulties/challenging.webp
+  AssetGenImage get challenging => const AssetGenImage(
+      'assets/helldivers/images/difficulties/challenging.webp');
+
+  /// File path: assets/helldivers/images/difficulties/easy.webp
+  AssetGenImage get easy =>
+      const AssetGenImage('assets/helldivers/images/difficulties/easy.webp');
+
+  /// File path: assets/helldivers/images/difficulties/extreme.webp
+  AssetGenImage get extreme =>
+      const AssetGenImage('assets/helldivers/images/difficulties/extreme.webp');
+
+  /// File path: assets/helldivers/images/difficulties/hard.webp
+  AssetGenImage get hard =>
+      const AssetGenImage('assets/helldivers/images/difficulties/hard.webp');
+
+  /// File path: assets/helldivers/images/difficulties/helldive.webp
+  AssetGenImage get helldive => const AssetGenImage(
+      'assets/helldivers/images/difficulties/helldive.webp');
+
+  /// File path: assets/helldivers/images/difficulties/impossible.webp
+  AssetGenImage get impossible => const AssetGenImage(
+      'assets/helldivers/images/difficulties/impossible.webp');
+
+  /// File path: assets/helldivers/images/difficulties/medium.webp
+  AssetGenImage get medium =>
+      const AssetGenImage('assets/helldivers/images/difficulties/medium.webp');
+
+  /// File path: assets/helldivers/images/difficulties/suicide.webp
+  AssetGenImage get suicide =>
+      const AssetGenImage('assets/helldivers/images/difficulties/suicide.webp');
+
+  /// File path: assets/helldivers/images/difficulties/super_helldive.webp
+  AssetGenImage get superHelldive => const AssetGenImage(
+      'assets/helldivers/images/difficulties/super_helldive.webp');
+
+  /// File path: assets/helldivers/images/difficulties/trivial.webp
+  AssetGenImage get trivial =>
+      const AssetGenImage('assets/helldivers/images/difficulties/trivial.webp');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+        challenging,
+        easy,
+        extreme,
+        hard,
+        helldive,
+        impossible,
+        medium,
+        suicide,
+        superHelldive,
+        trivial
+      ];
 }
 
 class $AssetsSeaOfThievesSvgBackgroundGen {

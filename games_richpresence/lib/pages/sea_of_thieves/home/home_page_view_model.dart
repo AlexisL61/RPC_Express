@@ -6,7 +6,7 @@ import 'package:games_richpresence/model/mvvm/view_events/push_route_event.dart'
 import 'package:games_richpresence/model/mvvm/view_model.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/activities/choose_activity_company.dart';
 import 'package:games_richpresence/pages/sea_of_thieves/ships/choose_ship.dart';
-import 'package:games_richpresence/services/online_translation_service.dart';
+import 'package:games_richpresence/services/common/online_translation_service.dart';
 import 'package:get_it/get_it.dart';
 
 class SeaOfThievesHomePageViewModel extends EventViewModel {

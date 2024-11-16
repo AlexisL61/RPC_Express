@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:games_richpresence/gen/assets.gen.dart';
 
 enum HelldiversFactions {
-  humans,
-  terminids,
-  automatons;
+  humans(name: "Humans"),
+  terminids(name: "Terminids"),
+  automatons(name: "Automaton"),
+  unknown(name: "Unknown");
+
+  final String name;
+
+  const HelldiversFactions({required this.name});
 
   static HelldiversFactions fromString(String faction) {
     switch (faction) {
@@ -12,8 +17,10 @@ enum HelldiversFactions {
         return HelldiversFactions.humans;
       case 'Terminids':
         return HelldiversFactions.terminids;
-      case 'Automatons':
+      case 'Automaton':
         return HelldiversFactions.automatons;
+      case 'Unknown':
+        return HelldiversFactions.unknown;
     }
     throw Exception('Unknown faction: $faction');
   }
@@ -28,17 +35,21 @@ extension HelldiversFactionsExtension on HelldiversFactions {
         return Assets.helldivers.images.terminidIcon.path;
       case HelldiversFactions.automatons:
         return Assets.helldivers.images.automatonIcon.path;
+      case HelldiversFactions.unknown:
+        return Assets.helldivers.images.superhearthIcon.path;
     }
   }
 
   Color get color {
     switch (this) {
       case HelldiversFactions.humans:
-        return const Color(0xFFa7daeb);
-      case HelldiversFactions.terminids:
-        return const Color(0xFFfe6d72);
+        return const Color(0xFF6bb7ea);
       case HelldiversFactions.automatons:
+        return const Color(0xFFfe6d72);
+      case HelldiversFactions.terminids:
         return const Color(0xFFffc100);
+      case HelldiversFactions.unknown:
+        return const Color.fromARGB(255, 182, 182, 182);
     }
   }
 }

@@ -1,7 +1,8 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:games_richpresence/components/helldivers/atoms/background/background.dart';
-import 'package:games_richpresence/components/helldivers/atoms/buttons/button.dart';
+import 'package:games_richpresence/components/helldivers/atoms/buttons/text_button.dart';
 import 'package:games_richpresence/components/helldivers/molecules/panels/planet_panel.dart';
 import 'package:games_richpresence/model/mvvm/widget_event_observer.dart';
 import 'package:games_richpresence/pages/helldivers/activity_select/planet_select_page_view_model.dart';
@@ -33,13 +34,13 @@ class _HelldiversPlanetSelectPageState extends WidgetEventObserver<HelldiversPla
       children: [
         Padding(
           padding: const EdgeInsets.all(8.0),
-          child:
-              Text("Select a planet", style: TextStyle(fontSize: 30, color: Colors.white, fontWeight: FontWeight.bold)),
+          child: Text(tr("_helldivers_select_planet"),
+              style: TextStyle(fontSize: 30, color: Colors.white, fontWeight: FontWeight.bold)),
         ),
         Expanded(child: _buildPlanetList()),
         Padding(
             padding: const EdgeInsets.all(8.0),
-            child: HelldiversButton(text: "Go back", onClick: () => Navigator.pop(context))),
+            child: HelldiversTextButton(text: tr("_back"), onClick: () => Navigator.pop(context))),
       ],
     )));
   }
@@ -55,10 +56,13 @@ class _HelldiversPlanetSelectPageState extends WidgetEventObserver<HelldiversPla
             runSpacing: 20,
             alignment: WrapAlignment.center,
             children: List.generate(viewModel.planets.length, (int index) {
-              return GestureDetector(
-                onTap: () => viewModel.onPlanetClick(viewModel.planets[index]),
-                child: HelldiversPlanetPanel(
-                  planet: viewModel.planets[index],
+              return MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: GestureDetector(
+                  onTap: () => viewModel.onPlanetClick(viewModel.planets[index]),
+                  child: HelldiversPlanetPanel(
+                    planet: viewModel.planets[index],
+                  ),
                 ),
               );
             }),

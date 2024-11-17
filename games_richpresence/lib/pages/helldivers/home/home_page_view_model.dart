@@ -1,3 +1,4 @@
+import 'package:games_richpresence/model/class/game_activities/helldivers/activity.dart';
 import 'package:games_richpresence/model/class/user_data/helldivers_user_data.dart';
 import 'package:games_richpresence/model/class/user_data/user_data.dart';
 import 'package:games_richpresence/model/mvvm/view_events/push_route_event.dart';
@@ -27,7 +28,7 @@ class HelldiversHomePageViewModel extends EventViewModel {
   }
 
   void onActivityClick() async {
-    await notify(const PushRouteEvent(HelldiversPlanetSelectPage.route));
+    userData.activity = await notify(const PushRouteEvent(HelldiversPlanetSelectPage.route)) as HelldiversActivity?;
     notify();
     updateRpc(userData);
   }

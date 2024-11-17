@@ -1,13 +1,14 @@
 import 'package:games_richpresence/gen/assets.gen.dart';
 
 enum HelldiversObjective {
-  defense("defense"),
-  liberation("liberation"),
-  unknown("unknown");
+  defense("defense", "_helldivers_objective_defense"),
+  liberation("liberation", "_helldivers_objective_liberation"),
+  unknown("unknown", "_helldivers_objective_unknown");
 
   final String value;
+  final String name;
 
-  const HelldiversObjective(this.value);
+  const HelldiversObjective(this.value, this.name);
 }
 
 extension HelldiversObjectiveExtension on HelldiversObjective {
@@ -22,4 +23,3 @@ extension HelldiversObjectiveExtension on HelldiversObjective {
     }
   }
 }
-

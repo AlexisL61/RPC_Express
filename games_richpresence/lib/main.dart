@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:games_richpresence/pages/helldivers/activity_select/difficulty_activity_select_page.dart';
+import 'package:games_richpresence/pages/helldivers/activity_select/difficulty_activity_select_page_view_model.dart';
 import 'package:games_richpresence/pages/helldivers/activity_select/planet_select_page.dart';
 import 'package:games_richpresence/pages/home/home.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -39,6 +41,7 @@ class _MyAppState extends State<MyApp> {
         TheFinalsGamemodesCategoriesPage.route: (context) => TheFinalsGamemodesCategoriesPage(),
         TheFinalsGamemodesPageRoute.route: (context) => TheFinalsGamemodesPageRoute(),
         HelldiversPlanetSelectPage.route: (context) => HelldiversPlanetSelectPage(),
+        DifficultyActivitySelectPage.route: (context) => DifficultyActivitySelectPage(),
       },
     );
   }

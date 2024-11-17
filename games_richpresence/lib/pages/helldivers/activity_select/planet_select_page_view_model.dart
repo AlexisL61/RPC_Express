@@ -1,5 +1,10 @@
+import 'package:games_richpresence/model/class/game_activities/helldivers/activity.dart';
+import 'package:games_richpresence/model/class/game_activities/helldivers/difficulties.dart';
 import 'package:games_richpresence/model/class/game_activities/helldivers/planets.dart';
+import 'package:games_richpresence/model/mvvm/view_events/pop_route_event.dart';
+import 'package:games_richpresence/model/mvvm/view_events/push_route_event.dart';
 import 'package:games_richpresence/model/mvvm/view_model.dart';
+import 'package:games_richpresence/pages/helldivers/activity_select/difficulty_activity_select_page.dart';
 import 'package:games_richpresence/services/helldivers/helldivers_api_service.dart';
 import 'package:get_it/get_it.dart';
 
@@ -8,6 +13,7 @@ class HelldiversPlanetSelectPageViewModel extends EventViewModel {
 
   late HelldiversApiService _apiService;
   List<HelldiversPlanet> planets = [];
+  HelldiversPlanet? selectedPlanet;
   bool isLoading = true;
 
   HelldiversPlanetSelectPageViewModel({HelldiversApiService? apiService}) {
@@ -21,5 +27,12 @@ class HelldiversPlanetSelectPageViewModel extends EventViewModel {
     notify();
   }
 
-  onPlanetClick(HelldiversPlanet planet) {}
+  onPlanetClick(HelldiversPlanet planet) async {
+    Difficulties? difficulty = await notify(PushRouteEvent(DifficultyActivitySelectPage.route)) as Difficulties?;
+    if (difficulty == null) {
+      notify();
+    } else {
+      notify(PopRouteEvent(arguments: HelldiversActivity(difficulty: difficulty, planet: planet)));
+    }
+  }
 }

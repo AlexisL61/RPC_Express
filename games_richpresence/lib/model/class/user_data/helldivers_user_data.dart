@@ -1,40 +1,73 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:games_richpresence/model/class/game_activities/helldivers/activity.dart';
 import 'package:games_richpresence/model/class/user_data/user_data.dart';
 import 'package:games_richpresence/model/class/user_group/helldivers/group.dart';
 
 class HelldiversUserData extends UserData {
   HelldiversGroup? group;
+  HelldiversActivity? activity;
 
   String Function(String) onlineTranslate;
 
-  HelldiversUserData({this.group, required this.onlineTranslate});
+  HelldiversUserData({this.group, this.activity, required this.onlineTranslate});
 
   @override
   String? getRpcDetails() {
-    throw UnimplementedError();
+    if (activity == null ||
+        activity!.difficulty == null ||
+        activity!.planet == null ||
+        activity!.planet!.ennemy == null) {
+      return tr("_helldivers_in_game");
+    } else {
+      return tr("_helldivers_activity_rpc", namedArgs: {
+        "planet": activity!.planet!.name,
+        "enemy": activity!.planet!.ennemy!.name,
+        "difficulty": tr(activity!.difficulty!.name),
+        "difficulty_level": activity!.difficulty!.level.toString()
+      });
+    }
   }
 
   @override
   String? getRpcLargeImageKey() {
-    throw UnimplementedError();
+    if (activity != null && activity!.planet != null) {
+      return activity!.planet!.biomeImage;
+    } else {
+      return null;
+    }
   }
 
   @override
   String? getRpcLargeImageText() {
-    throw UnimplementedError();
+    if (activity != null && activity!.planet != null) {
+      return activity!.planet!.name;
+    }
+    return null;
   }
 
   @override
   String? getRpcSmallImageKey() {
-    throw UnimplementedError();
+    if (activity != null && activity!.difficulty != null) {
+      return activity!.difficulty!.id;
+    }
+    return null;
   }
 
   @override
   String? getRpcSmallImageText() {
-    throw UnimplementedError();
+    if (activity != null && activity!.difficulty != null) {
+      return tr(activity!.difficulty!.name);
+    }
+    return null;
   }
 
   @override
   String? getRpcState() {
-    throw UnimplementedError();
+    if (group != null) {
+      return tr("_helldivers_team_rpc",
+          namedArgs: {"players": group!.groupSize.toString(), "max_players": 4.toString()});
+    } else {
+      return null;
+    }
   }
 }

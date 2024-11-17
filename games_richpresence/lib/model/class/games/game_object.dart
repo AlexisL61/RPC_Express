@@ -8,7 +8,7 @@ import 'package:games_richpresence/transformers/activity/the_finals/the_finals_g
 enum GameObject {
   seaOfThieves("sea_of_thieves", "Sea of Thieves", "Windlass", "992744165802782741"),
   theFinals("the_finals", "The Finals", "Poppins", "1277334180354723980"),
-  helldivers("helldivers", "Helldivers 2", "ChakraPetch", "1277334180354723980");
+  helldivers("helldivers", "Helldivers 2", "ChakraPetch", "1307762394046398535");
 
   final String id;
   final String name;

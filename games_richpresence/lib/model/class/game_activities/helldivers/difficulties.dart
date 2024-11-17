@@ -1,21 +1,22 @@
 import 'package:games_richpresence/gen/assets.gen.dart';
 
 enum Difficulties {
-  trivial("trivial", 1),
-  easy("easy", 2),
-  medium("medium", 3),
-  challenging("challenging", 4),
-  hard("hard", 5),
-  extreme("extreme", 6),
-  suicide("suicide", 7),
-  impossible("impossible", 8),
-  helldive("helldive", 9),
-  super_helldive("super_helldive", 10);
+  trivial("trivial", "_helldivers_difficulty_trivial", 1),
+  easy("easy", "_helldivers_difficulty_easy", 2),
+  medium("medium", "_helldivers_difficulty_medium", 3),
+  challenging("challenging", "_helldivers_difficulty_challenging", 4),
+  hard("hard", "_helldivers_difficulty_hard", 5),
+  extreme("extreme", "_helldivers_difficulty_extreme", 6),
+  suicide("suicide", "_helldivers_difficulty_suicide", 7),
+  impossible("impossible", "_helldivers_difficulty_impossible", 8),
+  helldive("helldive", "_helldivers_difficulty_helldive", 9),
+  super_helldive("super_helldive", "_helldivers_difficulty_super_helldive", 10);
 
   final String id;
+  final String name;
   final int level;
 
-  const Difficulties(this.id, this.level);
+  const Difficulties(this.id, this.name, this.level);
 }
 
 extension DifficultiesExtension on Difficulties {
@@ -41,7 +42,6 @@ extension DifficultiesExtension on Difficulties {
         return Assets.helldivers.images.difficulties.helldive.path;
       case Difficulties.super_helldive:
         return Assets.helldivers.images.difficulties.superHelldive.path;
-
     }
   }
 }

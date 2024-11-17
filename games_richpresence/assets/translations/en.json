@@ -40,5 +40,34 @@
     "_the_finals_select_gamemode": "Select a gamemode",
     "_the_finals_in_game": "In game",
 
-    "_the_final_team_rpc": "{players} / {max_players} players"
+    "_the_final_team_rpc": "{players} / {max_players} players",
+
+    "_helldivers_objective_defense": "Defense",
+    "_helldivers_objective_liberation": "Liberation",
+
+    "_helldivers_difficulty_trivial": "Trivial",
+    "_helldivers_difficulty_easy": "Easy",
+    "_helldivers_difficulty_medium": "Medium",
+    "_helldivers_difficulty_challenging": "Challenging",
+    "_helldivers_difficulty_hard": "Hard",
+    "_helldivers_difficulty_extreme": "Extreme",
+    "_helldivers_difficulty_suicide": "Suicidal",
+    "_helldivers_difficulty_impossible": "Impossible",
+    "_helldivers_difficulty_helldive": "Helldive",
+    "_helldivers_difficulty_super_helldive": "Super helldive",
+
+    "_helldivers_select_planet": "Select a planet",
+    "_helldivers_select_difficulty": "Select a difficulty",
+
+    "_helldivers_team_panel_title": "HELLDIVER'S TEAM",
+    "_helldivers_team_panel_subtitle" : "SUPEREARTH FORCE",
+    "_helldivers_team_panel_description": "Liberate the galaxy by sharing how many helldivers are in your destroyer.",
+
+    "_helldivers_map_panel_title": "GALACTIC MAP",
+    "_helldivers_map_panel_subtitle": "SUPEREARTH GALAXY",
+    "_helldivers_map_panel_description": "Select the region you are currently fighting in.",
+
+    "_helldivers_in_game": "In game",
+    "_helldivers_activity_rpc": "{planet} ({enemy}) | {difficulty_level} - {difficulty}",
+    "_helldivers_team_rpc": "{players} / {max_players} players"
 }

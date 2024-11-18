@@ -2,20 +2,20 @@
     {
         "id":"ranked",
         "name": "_ranked",
-        "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_ranked.jpg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/the_finals/gamemodes/the_finals_ranked.jpg",
         "description": "_ranked_description",
         "gamemodes": [
             {
                 "id": "world_tour",
                 "name": "_world_tour",
-                "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_ranked_world_tour.jpg",
+                "image": "https://alexisl61.github.io/RPC_Express/assets/the_finals/gamemodes/the_finals_ranked_world_tour.jpg",
                 "description": "_world_tour_description",
                 "rpc": "_world_tour_rpc"
             },
             {
                 "id": "ranked_cashout",
                 "name": "_ranked_cashout",
-                "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_ranked_cashout.jpg",
+                "image": "https://alexisl61.github.io/RPC_Express/assets/the_finals/gamemodes/the_finals_ranked_cashout.jpg",
                 "description": "_ranked_cashout_description",
                 "rpc": "_ranked_cashout_rpc"
             }
@@ -24,34 +24,34 @@
     {
         "id":"casual",
         "name": "_casual",
-        "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_casual.jpg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/the_finals/gamemodes/the_finals_casual.jpg",
         "description": "_casual_description",
         "gamemodes": [
             {
                 "id": "casual_quick_cash",
                 "name": "_casual_quick_cash",
-                "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_casual_quick_cash.png",
+                "image": "https://alexisl61.github.io/RPC_Express/assets/the_finals/gamemodes/the_finals_casual_quick_cash.png",
                 "description": "_casual_quick_cash_description",
                 "rpc": "_casual_quick_cash_rpc"
             },
             {
                 "id": "casual_bank_it",
                 "name": "_casual_bank_it",
-                "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_casual_bank_it.png",
+                "image": "https://alexisl61.github.io/RPC_Express/assets/the_finals/gamemodes/the_finals_casual_bank_it.png",
                 "description": "_casual_bank_it_description",
                 "rpc": "_casual_bank_it_rpc"
             },
             {
                 "id": "casual_power_shift",
                 "name": "_casual_power_shift",
-                "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_casual_power_shift.png",
+                "image": "https://alexisl61.github.io/RPC_Express/assets/the_finals/gamemodes/the_finals_casual_power_shift.png",
                 "description": "_casual_power_shift_description",
                 "rpc": "_casual_power_shift_rpc"
             },
             {
                 "id": "casual_terminal_attack",
                 "name": "_casual_terminal_attack",
-                "image": "https://alexisl61.github.io/Games_RichPresence/assets/the_finals/gamemodes/the_finals_casual_terminal_attack.png",
+                "image": "https://alexisl61.github.io/RPC_Express/assets/the_finals/gamemodes/the_finals_casual_terminal_attack.png",
                 "description": "_casual_terminal_attack_description",
                 "rpc": "_casual_terminal_attack_rpc"
             }

@@ -15,9 +15,9 @@ To install RPC Express, follow these steps:
 ## Features
 
 - **Activity Selection:** Choose from a list of activities to display on your Discord profile.
-- **Group:** Specify the number of players playing the game with you
+- **Group:** Specify the number of players playing the game with you.
 - **Automatic Updates:** The application fetches the latest activities at startup, so you don't need to update the app to get the newest activities.
-- **UI:** Each game has its own UI in the app 
+- **UI:** Each game has its own UI in the app .
 
 ## Important Note
 
@@ -25,11 +25,23 @@ To install RPC Express, follow these steps:
 
 ## Gallery
 
-![Screenshot_1](https://github.com/AlexisL61/SOT_RichPresence/assets/30233189/d18aa192-eeb2-444b-8c7d-bd24bd4b8b89)
-![Screenshot 2](https://github.com/AlexisL61/SOT_RichPresence/assets/30233189/140ba8b0-c0dd-4e82-8177-5bb3a2afcdac)
-![Screenshot 3](https://github.com/AlexisL61/SOT_RichPresence/assets/30233189/7b1f65ad-3591-49fc-9f23-ca611c09961d)
-![Screenshot_4](https://github.com/AlexisL61/SOT_RichPresence/assets/30233189/e01aa5cd-1901-4936-8fa1-98b040ed1fac)
-![Screenshot_5](https://github.com/AlexisL61/SOT_RichPresence/assets/30233189/8766f2a7-c57c-4e2f-af8e-82cdead413f6)
+### Sea of Thieves
+
+![Screenshot 1](https://github.com/user-attachments/assets/96d5364b-c96c-4064-b8dd-ce704e0409a7)
+![Screenshot 2](https://github.com/user-attachments/assets/d8383145-027d-4539-a1b7-db83d1ebf5a1)
+![Screenshot 3](https://github.com/user-attachments/assets/5350d4dd-0408-4ae6-8691-a0eb0cb46d7d)
+
+### The Finals
+
+![Screenshot 4](https://github.com/user-attachments/assets/24a9136f-72fa-47c7-9ff4-3fe37a3c5d48)
+![Screenshot 5](https://github.com/user-attachments/assets/8175c142-d96b-42f3-b5f6-3f99215132dc)
+![Screenshot 6](https://github.com/user-attachments/assets/481f6a43-f38e-4f4e-b94a-898ff672e5fa)
+
+### Helldivers 2
+
+![Screenshot 7](https://github.com/user-attachments/assets/975ad423-deee-4b04-9e3b-16aacfa67f2f)
+![Screenshot 8](https://github.com/user-attachments/assets/d8b35745-2c98-47f2-aec1-f2bf953fc1ca)
+![Screenshot 9](https://github.com/user-attachments/assets/80fba808-7ee6-4179-a9ae-b07cf2e875c6)
 
 ## Contributing
 

@@ -16,19 +16,16 @@ class CreditDialog extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text(tr("_app_title"),
-              textAlign: TextAlign.center, style: SotTextStyles.mediumYellow),
+          Text(tr("_app_title"), textAlign: TextAlign.center, style: SotTextStyles.mediumYellow),
           SizedBox(height: 20),
-          Text(tr("_app_description"),
-              textAlign: TextAlign.center, style: SotTextStyles.mediumWhite),
+          Text(tr("_app_description"), textAlign: TextAlign.center, style: SotTextStyles.mediumWhite),
           SizedBox(height: 40),
           Text(tr("_app_developer", namedArgs: {"developer": "AlexisL61"}),
               textAlign: TextAlign.center, style: SotTextStyles.mediumWhite),
           SizedBox(height: 20),
           SotIconButton(
               onPressed: () {
-                launchUrlString(
-                    "https://github.com/AlexisL61/SOT_RichPresence");
+                launchUrlString("https://github.com/AlexisL61/RPC_Express");
               },
               icon: Icons.favorite)
         ],

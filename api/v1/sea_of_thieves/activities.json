@@ -2,18 +2,18 @@
     {
         "id":"gold_hoarder",
         "name":"_gold_hoarders",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/gold_hoarders.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/gold-hoarders.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/gold_hoarders.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/gold-hoarders.svg",
         "categories": [
             {
                 "id":"buried_treasures",
                 "name":"_buried_treasures",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Buried_Treasure_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Buried_Treasure_Voyage_icon.png",
                 "activities": [
                     {
                         "id":"a_pirates_treasure_map",
                         "name":"_a_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Pirates_Treasure_Map.png",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Pirates_Treasure_Map.png",
                         "length":1,
                         "description":"_a_pirates_treasure_map_description",
                         "rpc":"_a_pirates_treasure_map_rpc"
@@ -21,7 +21,7 @@
                     {
                         "id":"a_captains_treasure_map",
                         "name":"_a_captains_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Captains_Treasure_Map.png",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Captains_Treasure_Map.png",
                         "length":2,
                         "description":"_a_captains_treasure_map_description",
                         "rpc":"_a_captains_treasure_map_rpc"
@@ -29,7 +29,7 @@
                     {
                         "id":"an_ashen_pirates_treasure_map",
                         "name":"_an_ashen_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Pirates_Treasure_Map.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Pirates_Treasure_Map.webp",
                         "length":1,
                         "description":"_an_ashen_pirates_treasure_map_description",
                         "rpc":"_an_ashen_pirates_treasure_map_rpc"
@@ -37,7 +37,7 @@
                     {
                         "id":"an_ashen_captains_treasure_map",
                         "name":"_an_ashen_captains_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Captains_Treasure_Map.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Captains_Treasure_Map.webp",
                         "length":2,
                         "description":"_an_ashen_captains_treasure_map_description",
                         "rpc":"_an_ashen_captains_treasure_map_rpc"
@@ -47,12 +47,12 @@
             {
                 "id":"riddle",
                 "name":"_riddle",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Riddle_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Riddle_Voyage_icon.png",
                 "activities": [
                     {
                         "id":"a_pirates_riddle_quest",
                         "name":"_a_pirates_riddle_quest",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Pirates_Riddle_Quest.png",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Pirates_Riddle_Quest.png",
                         "length":1,
                         "description":"_a_pirates_riddle_quest_description",
                         "rpc":"_a_pirates_riddle_quest_rpc"
@@ -60,7 +60,7 @@
                     {
                         "id":"a_captains_riddle_quest",
                         "name":"_a_captains_riddle_quest",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Captains_Riddle_Quest.png",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Captains_Riddle_Quest.png",
                         "length":2,
                         "description":"_a_captains_riddle_quest_description",
                         "rpc":"_a_captains_riddle_quest_rpc"
@@ -68,7 +68,7 @@
                     {
                         "id":"an_ashen_pirates_riddle_quest",
                         "name":"_an_ashen_pirates_riddle_quest",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Pirates_Riddle_Quest.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Pirates_Riddle_Quest.webp",
                         "length":2,
                         "description":"_an_ashen_pirates_riddle_quest_description",
                         "rpc":"_an_ashen_pirates_riddle_quest_rpc"
@@ -76,7 +76,7 @@
                     {
                         "id":"an_ashen_captains_riddle_quest",
                         "name":"_an_ashen_captains_riddle_quest",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Captains_Riddle_Quest.png",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Captains_Riddle_Quest.png",
                         "length":2,
                         "description":"_an_ashen_captains_riddle_quest_description",
                         "rpc":"_an_ashen_captains_riddle_quest_rpc"
@@ -86,12 +86,12 @@
             {
                 "id":"vault",
                 "name":"_vault",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Treasure_Vault_Voyage_icon.webp",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Treasure_Vault_Voyage_icon.webp",
                 "activities": [
                     {
                         "id":"a_pirates_treasure_vault",
                         "name":"_a_pirates_treasure_vault",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Pirates_Treasure_Vault.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Pirates_Treasure_Vault.webp",
                         "length":4,
                         "description":"_a_pirates_treasure_vault_description",
                         "rpc":"_a_pirates_treasure_vault_rpc"
@@ -99,7 +99,7 @@
                     {
                         "id":"a_captains_treasure_vault",
                         "name":"_a_captains_treasure_vault",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Captains_Treasure_Vault.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Captains_Treasure_Vault.webp",
                         "length":5,
                         "description":"_a_captains_treasure_vault_description",
                         "rpc":"_a_captains_treasure_vault_rpc"
@@ -107,7 +107,7 @@
                     {
                         "id":"an_ashen_pirates_treasure_vault",
                         "name":"_an_ashen_pirates_treasure_vault",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Captains_Treasure_Vault.png",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Captains_Treasure_Vault.png",
                         "length":4,
                         "description":"_an_ashen_pirates_treasure_vault_description",
                         "rpc":"_an_ashen_pirates_treasure_vault_rpc"
@@ -115,7 +115,7 @@
                     {
                         "id":"an_ashen_captains_treasure_vault",
                         "name":"_an_ashen_captains_treasure_vault",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Captains_Treasure_Vault.png",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Captains_Treasure_Vault.png",
                         "length":5,
                         "description":"_an_ashen_captains_treasure_vault_description",
                         "rpc":"_an_ashen_captains_treasure_vault_rpc"
@@ -125,12 +125,12 @@
             {
                 "id":"gold_hoarders_medley",
                 "name":"_gold_hoarders_medley",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Gold_Hoarders_Medley_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Gold_Hoarders_Medley_Voyage_icon.png",
                 "activities": [
                     {
                         "id":"a_medley_of_gold_hoarders_voyages",
                         "name":"_a_medley_of_gold_hoarders_voyages",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Medley_of_Gold_Hoarders_Voyages.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Medley_of_Gold_Hoarders_Voyages.webp",
                         "length":5,
                         "description":"_a_medley_of_gold_hoarders_voyages_description",
                         "rpc":"_a_medley_of_gold_hoarders_voyages_rpc"
@@ -138,7 +138,7 @@
                     {
                         "id":"an_ashen_medley_of_gold_hoarders_voyages",
                         "name":"_an_ashen_medley_of_gold_hoarders_voyages",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Medley_of_Gold_Hoarders_Voyages.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Medley_of_Gold_Hoarders_Voyages.webp",
                         "length":5,
                         "description":"_an_ashen_medley_of_gold_hoarders_voyages_description",
                         "rpc":"_an_ashen_medley_of_gold_hoarders_voyages_rpc"
@@ -148,12 +148,12 @@
             {
                 "id": "gold_hoarders_raid",
                 "name": "_gold_hoarders_raid",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Gold_Hoarders_Raid_Voyage_icon.webp",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Gold_Hoarders_Raid_Voyage_icon.webp",
                 "activities": [
                     {
                         "id": "a_raid_on_a_sea_fort",
                         "name": "_a_raid_on_a_sea_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sea_Fort.webp",
                         "length": 3,
                         "description": "_a_raid_on_a_sea_fort_description",
                         "rpc": "_a_raid_on_a_sea_fort_for_gold_hoarders_rpc"
@@ -161,7 +161,7 @@
                     {
                         "id": "an_adventure_to_a_sunken_shrine",
                         "name": "_an_adventure_to_a_sunken_shrine",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Adventure_to_a_Sunken_Shrine.webp",
                         "length": 4,
                         "description": "_an_adventure_to_a_sunken_shrine_description",
                         "rpc": "_an_adventure_to_a_sunken_shrine_for_gold_hoarders_rpc"
@@ -169,7 +169,7 @@
                     {
                         "id": "a_raid_on_a_sunken_treasury",
                         "name": "_a_raid_on_a_sunken_treasury",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sunken_Treasury.webp",
                         "length": 4,
                         "description": "_a_raid_on_a_sunken_treasury_description",
                         "rpc": "_a_raid_on_a_sunken_treasury_for_gold_hoarders_rpc"
@@ -177,7 +177,7 @@
                     {
                         "id":"a_duel_with_an_ashen_lord",
                         "name":"_a_duel_with_an_ashen_lord",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Duel_with_an_Ashen_Lord.webp",
                         "length":3,
                         "description":"_a_duel_with_an_ashen_lord_description",
                         "rpc":"_a_duel_with_an_ashen_lord_for_gold_hoarders_rpc"
@@ -185,7 +185,7 @@
                     {
                         "id": "a_raid_on_a_skeleton_fort",
                         "name": "_a_raid_on_a_skeleton_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Skeleton_Fort.webp",
                         "length": 4,
                         "description": "_a_raid_on_a_skeleton_fort_description",
                         "rpc": "_a_raid_on_a_skeleton_fort_for_gold_hoarders_rpc"
@@ -193,7 +193,7 @@
                     {
                         "id": "a_battle_with_a_skeleton_fleet",
                         "name": "_a_battle_with_a_skeleton_fleet",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_a_Skeleton_Fleet.webp",
                         "length": 4,
                         "description": "_a_battle_with_a_skeleton_fleet_description",
                         "rpc": "_a_battle_with_a_skeleton_fleet_for_gold_hoarders_rpc"
@@ -201,7 +201,7 @@
                     {
                         "id": "a_battle_with_the_burning_blades_armada",
                         "name": "_a_battle_with_the_burning_blades_armada",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
                         "length": 5,
                         "description": "_a_battle_with_the_burning_blades_armada_description",
                         "rpc": "_a_battle_with_the_burning_blades_armada_for_gold_hoarders_rpc"
@@ -213,18 +213,18 @@
     {
         "id":"order_of_souls",
         "name":"_order_of_souls",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/order_of_souls.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/order-of-souls.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/order_of_souls.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/order-of-souls.svg",
         "categories": [
             {
                 "id":"bounty",
                 "name":"_bounty",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Bounty_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Bounty_Voyage_icon.png",
                 "activities": [
                     {
                         "id":"a_bounty_for_a_skeleton_crew",
                         "name":"_a_bounty_for_a_skeleton_crew",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Bounty_for_a_Skeleton_Crew.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Bounty_for_a_Skeleton_Crew.webp",
                         "length":1,
                         "description":"_a_bounty_for_a_skeleton_crew_description",
                         "rpc":"_a_bounty_for_a_skeleton_crew_rpc"
@@ -232,7 +232,7 @@
                     {
                         "id":"a_bounty_for_skeleton_captains",
                         "name":"_a_bounty_for_skeleton_captains",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Bounty_for_Skeleton_Captains.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Bounty_for_Skeleton_Captains.webp",
                         "length":2,
                         "description":"_a_bounty_for_skeleton_captains_description",
                         "rpc":"_a_bounty_for_skeleton_captains_rpc"
@@ -240,7 +240,7 @@
                     {
                         "id": "a_bounty_for_a_skeleton_lord",
                         "name": "_a_bounty_for_a_skeleton_lord",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Bounty_for_a_Skeleton_Lord.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Bounty_for_a_Skeleton_Lord.png",
                         "length": 3,
                         "description": "_a_bounty_for_a_skeleton_lord_description",
                         "rpc": "_a_bounty_for_a_skeleton_lord_rpc"
@@ -248,7 +248,7 @@
                     {
                         "id": "an_ashen_bounty_for_a_skeleton_crew",
                         "name": "_an_ashen_bounty_for_a_skeleton_crew",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Bounty_for_a_Skeleton_Crew.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Bounty_for_a_Skeleton_Crew.webp",
                         "length": 1,
                         "description": "_an_ashen_bounty_for_a_skeleton_crew_description",
                         "rpc": "_an_ashen_bounty_for_a_skeleton_crew_rpc"
@@ -256,7 +256,7 @@
                     {
                         "id": "an_ashen_bounty_for_skeleton_captains",
                         "name": "_an_ashen_bounty_for_skeleton_captains",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Bounty_for_Skeleton_Captains.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Bounty_for_Skeleton_Captains.png",
                         "length": 2,
                         "description": "_an_ashen_bounty_for_skeleton_captains_description",
                         "rpc": "_an_ashen_bounty_for_skeleton_captains_rpc"
@@ -264,7 +264,7 @@
                     {
                         "id": "an_ashen_bounty_for_a_skeleton_lord",
                         "name": "_an_ashen_bounty_for_a_skeleton_lord",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Bounty_for_a_Skeleton_Lord.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Bounty_for_a_Skeleton_Lord.png",
                         "length": 3,
                         "description": "_an_ashen_bounty_for_a_skeleton_lord_description",
                         "rpc": "_an_ashen_bounty_for_a_skeleton_lord_rpc"
@@ -274,12 +274,12 @@
             {
                 "id": "ghost_ship_battle",
                 "name": "_ghost_ship_battle",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Ghost_Ship_Battle_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Ghost_Ship_Battle_Voyage_icon.png",
                 "activities":[
                     {
                         "id": "a_battle_with_a_ghost_armada",
                         "name": "_a_battle_with_a_ghost_armada",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_a_Ghost_Armada.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_a_Ghost_Armada.webp",
                         "length": 4,
                         "description": "_a_battle_with_a_ghost_armada_description",
                         "rpc": "_a_battle_with_a_ghost_armada_rpc"
@@ -287,7 +287,7 @@
                     {
                         "id": "an_ashen_battle_with_a_ghost_armada",
                         "name": "_an_ashen_battle_with_a_ghost_armada",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Battle_with_a_Ghost_Armada.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Battle_with_a_Ghost_Armada.png",
                         "length": 4,
                         "description": "_an_ashen_battle_with_a_ghost_armada_description",
                         "rpc": "_an_ashen_battle_with_a_ghost_armada_rpc"
@@ -297,12 +297,12 @@
             {
                 "id": "order_of_souls_medley",
                 "name": "_order_of_souls_medley",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Order_of_Souls_Medley_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Order_of_Souls_Medley_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "a_medley_of_order_of_souls_voyages",
                         "name": "_a_medley_of_order_of_souls_voyages",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Medley_of_Order_of_Souls_Voyages.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Medley_of_Order_of_Souls_Voyages.webp",
                         "length": 5,
                         "description": "_a_medley_of_order_of_souls_voyages_description",
                         "rpc": "_a_medley_of_order_of_souls_voyages_rpc"
@@ -310,7 +310,7 @@
                     {
                         "id": "an_ashen_medley_of_order_of_souls_voyages",
                         "name": "_an_ashen_medley_of_order_of_souls_voyages",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Medley_of_Order_of_Souls_Voyages.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Medley_of_Order_of_Souls_Voyages.webp",
                         "length": 5,
                         "description": "_an_ashen_medley_of_order_of_souls_voyages_description",
                         "rpc": "_an_ashen_medley_of_order_of_souls_voyages_rpc"
@@ -320,12 +320,12 @@
             {
                 "id": "order_of_souls_raid",
                 "name": "_order_of_souls_raid",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Order_of_Souls_Raid_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Order_of_Souls_Raid_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "a_raid_on_a_sea_fort",
                         "name": "_a_raid_on_a_sea_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sea_Fort.webp",
                         "length": 3,
                         "description": "_a_raid_on_a_sea_fort_description",
                         "rpc": "_a_raid_on_a_sea_fort_for_order_of_souls_rpc"
@@ -333,7 +333,7 @@
                     {
                         "id": "an_adventure_to_a_sunken_shrine",
                         "name": "_an_adventure_to_a_sunken_shrine",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Adventure_to_a_Sunken_Shrine.webp",
                         "length": 4,
                         "description": "_an_adventure_to_a_sunken_shrine_description",
                         "rpc": "_an_adventure_to_a_sunken_shrine_for_order_of_souls_rpc"
@@ -341,7 +341,7 @@
                     {
                         "id": "a_raid_on_a_sunken_treasury",
                         "name": "_a_raid_on_a_sunken_treasury",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sunken_Treasury.webp",
                         "length": 4,
                         "description": "_a_raid_on_a_sunken_treasury_description",
                         "rpc": "_a_raid_on_a_sunken_treasury_for_order_of_souls_rpc"
@@ -349,7 +349,7 @@
                     {
                         "id": "a_duel_with_an_ashen_lord",
                         "name": "_a_duel_with_an_ashen_lord",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Duel_with_an_Ashen_Lord.webp",
                         "length": 3,
                         "description": "_a_duel_with_an_ashen_lord_description",
                         "rpc": "_a_duel_with_an_ashen_lord_for_order_of_souls_rpc"
@@ -357,7 +357,7 @@
                     {
                         "id": "a_raid_on_a_skeleton_fort",
                         "name": "_a_raid_on_a_skeleton_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Skeleton_Fort.webp",
                         "length": 4,
                         "description": "_a_raid_on_a_skeleton_fort_description",
                         "rpc": "_a_raid_on_a_skeleton_fort_for_order_of_souls_rpc"
@@ -365,7 +365,7 @@
                     {
                         "id": "a_battle_with_a_skeleton_fleet",
                         "name": "_a_battle_with_a_skeleton_fleet",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_a_Skeleton_Fleet.webp",
                         "length": 4,
                         "description": "_a_battle_with_a_skeleton_fleet_description",
                         "rpc": "_a_battle_with_a_skeleton_fleet_for_order_of_souls_rpc"
@@ -373,7 +373,7 @@
                     {
                         "id": "a_battle_with_the_burning_blades_armada",
                         "name": "_a_battle_with_the_burning_blades_armada",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
                         "length": 5,
                         "description": "_a_battle_with_the_burning_blades_armada_description",
                         "rpc": "_a_battle_with_the_burning_blades_armada_for_order_of_souls_rpc"
@@ -385,18 +385,18 @@
     {
         "id":"merchant_alliance",
         "name":"_merchant_alliance",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/merchant_alliance.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/merchant-alliance.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/merchant_alliance.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/merchant-alliance.svg",
         "categories": [
             {
                 "id": "merchant_contract",
                 "name": "_merchant_contract",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Merchant_Contract_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Merchant_Contract_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "a_founders_merchant_contract",
                         "name": "_a_founders_merchant_contract",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Founders_Merchant_Contract.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Founders_Merchant_Contract.png",
                         "length": 3,
                         "description": "_a_founders_merchant_contract_description",
                         "rpc": "_a_founders_merchant_contract_rpc"
@@ -404,7 +404,7 @@
                     {
                         "id": "an_executives_merchant_contract",
                         "name": "_an_executives_merchant_contract",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Executives_Merchant_Contract.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Executives_Merchant_Contract.png",
                         "length": 4,
                         "description": "_an_executives_merchant_contract_description",
                         "rpc": "_an_executives_merchant_contract_rpc"
@@ -414,12 +414,12 @@
             {
                 "id": "cargo_run",
                 "name": "_cargo_run",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Cargo_Run_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Cargo_Run_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "a_founders_cargo_run",
                         "name": "_a_founders_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Founders_Cargo_Run.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Founders_Cargo_Run.png",
                         "length": 3,
                         "description": "_a_founders_cargo_run_description",
                         "rpc": "_a_founders_cargo_run_rpc"
@@ -427,7 +427,7 @@
                     {
                         "id": "an_executives_cargo_run",
                         "name": "_an_executives_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Founders_Cargo_Run.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Founders_Cargo_Run.png",
                         "length": 4,
                         "description": "_an_executives_cargo_run_description",
                         "rpc": "_an_executives_cargo_run_rpc"
@@ -435,7 +435,7 @@
                     {
                         "id": "an_ashen_founders_cargo_run",
                         "name": "_an_ashen_founders_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Founders_Cargo_Run.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Founders_Cargo_Run.png",
                         "length": 3,
                         "description": "_an_ashen_founders_cargo_run_description",
                         "rpc": "_an_ashen_founders_cargo_run_rpc"
@@ -443,7 +443,7 @@
                     {
                         "id": "an_ashen_executives_cargo_run",
                         "name": "_an_ashen_executives_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Founders_Cargo_Run.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Founders_Cargo_Run.png",
                         "length": 4,
                         "description": "_an_ashen_executives_cargo_run_description",
                         "rpc": "_an_ashen_executives_cargo_run_rpc"
@@ -453,12 +453,12 @@
             {
                 "id": "lost_shipment",
                 "name": "_lost_shipment",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Lost_Shipment_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Lost_Shipment_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "an_executives_lost_shipment",
                         "name": "_an_executives_lost_shipment",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Executives_Lost_Shipment.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Executives_Lost_Shipment.png",
                         "length": 4,
                         "description": "_an_executives_lost_shipment_description",
                         "rpc": "_an_executives_lost_shipment_rpc"
@@ -466,7 +466,7 @@
                     {
                         "id": "an_ashen_executives_lost_shipment",
                         "name": "_an_ashen_executives_lost_shipment",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Executives_Lost_Shipment.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Executives_Lost_Shipment.webp",
                         "length": 4,
                         "description": "_an_ashen_executives_lost_shipment_description",
                         "rpc": "_an_ashen_executives_lost_shipment_rpc"
@@ -476,12 +476,12 @@
             {
                 "id": "merchant_alliance_medley",
                 "name": "_merchant_alliance_medley",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Merchant_Alliance_Medley_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Merchant_Alliance_Medley_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "a_medley_of_merchant_alliance_voyages",
                         "name": "_a_medley_of_merchant_alliance_voyages",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Medley_of_Merchant_Alliance_Voyages.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Medley_of_Merchant_Alliance_Voyages.png",
                         "length": 5,
                         "description": "_a_medley_of_merchant_alliance_voyages_description",
                         "rpc": "_a_medley_of_merchant_alliance_voyages_rpc"
@@ -489,7 +489,7 @@
                     {
                         "id": "an_ashen_medley_of_merchant_alliance_voyages",
                         "name": "_an_ashen_medley_of_merchant_alliance_voyages",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Ashen_Medley_of_Merchant_Alliance_Voyages.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Ashen_Medley_of_Merchant_Alliance_Voyages.webp",
                         "length": 5,
                         "description": "_an_ashen_medley_of_merchant_alliance_voyages_description",
                         "rpc": "_an_ashen_medley_of_merchant_alliance_voyages_rpc"
@@ -499,12 +499,12 @@
             {
                 "id": "merchant_alliance_raid",
                 "name": "_merchant_alliance_raid",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Merchant_Alliance_Raid_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Merchant_Alliance_Raid_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "a_raid_on_a_sea_fort",
                         "name": "_a_raid_on_a_sea_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sea_Fort.webp",
                         "length": 3,
                         "description": "_a_raid_on_a_sea_fort_description",
                         "rpc": "_a_raid_on_a_sea_fort_for_merchant_alliance_rpc"
@@ -512,7 +512,7 @@
                     {
                         "id": "an_adventure_to_a_sunken_shrine",
                         "name": "_an_adventure_to_a_sunken_shrine",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Adventure_to_a_Sunken_Shrine.webp",
                         "length": 4,
                         "description": "_an_adventure_to_a_sunken_shrine_description",
                         "rpc": "_an_adventure_to_a_sunken_shrine_for_merchant_alliance_rpc"
@@ -520,7 +520,7 @@
                     {
                         "id": "a_raid_on_a_sunken_treasury",
                         "name": "_a_raid_on_a_sunken_treasury",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sunken_Treasury.webp",
                         "length": 4,
                         "description": "_a_raid_on_a_sunken_treasury_description",
                         "rpc": "_a_raid_on_a_sunken_treasury_for_merchant_alliance_rpc"
@@ -528,7 +528,7 @@
                     {
                         "id": "a_duel_with_an_ashen_lord",
                         "name": "_a_duel_with_an_ashen_lord",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Duel_with_an_Ashen_Lord.webp",
                         "length": 3,
                         "description": "_a_duel_with_an_ashen_lord_description",
                         "rpc": "_a_duel_with_an_ashen_lord_for_merchant_alliance_rpc"
@@ -536,7 +536,7 @@
                     {
                         "id": "a_raid_on_a_skeleton_fort",
                         "name": "_a_raid_on_a_skeleton_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Skeleton_Fort.webp",
                         "length": 4,
                         "description": "_a_raid_on_a_skeleton_fort_description",
                         "rpc": "_a_raid_on_a_skeleton_fort_for_merchant_alliance_rpc"
@@ -544,7 +544,7 @@
                     {
                         "id": "a_battle_with_a_skeleton_fleet",
                         "name": "_a_battle_with_a_skeleton_fleet",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_a_Skeleton_Fleet.webp",
                         "length": 4,
                         "description": "_a_battle_with_a_skeleton_fleet_description",
                         "rpc": "_a_battle_with_a_skeleton_fleet_for_merchant_alliance_rpc"
@@ -552,7 +552,7 @@
                     {
                         "id": "a_battle_with_the_burning_blades_armada",
                         "name": "_a_battle_with_the_burning_blades_armada",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
                         "length": 5,
                         "description": "_a_battle_with_the_burning_blades_armada_description",
                         "rpc": "_a_battle_with_the_burning_blades_armada_for_merchant_alliance_rpc"
@@ -564,18 +564,18 @@
     {
         "id":"reapers_bones",
         "name":"_reapers_bones",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/reapers_bones.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/reapers-bones.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/reapers_bones.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/reapers-bones.svg",
         "categories": [
             {
                 "id": "reapers_bones_voyages",
                 "name": "_reaper_bones_voyages",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Crew_Chase_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Crew_Chase_icon.png",
                 "activities": [
                     {
                         "id": "crew_chase_voyage",
                         "name": "_crew_chase_voyage",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Crew_Chase.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Crew_Chase.jpg",
                         "length": 5,
                         "description": "_crew_chase_voyage_description",
                         "rpc": "_crew_chase_voyage_rpc"
@@ -583,7 +583,7 @@
                     {
                         "id": "burning_blade_tribute",
                         "name": "_burning_blade_tribute",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Burning_Blade_Tribute.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Burning_Blade_Tribute.jpg",
                         "length": 5,
                         "description": "_burning_blade_tribute_description",
                         "rpc": "_burning_blade_tribute_rpc"
@@ -595,18 +595,18 @@
     {
         "id":"athenas_fortune",
         "name":"_athenas_fortune",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/athenas_fortune.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/athenas-fortune.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/athenas_fortune.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/athenas-fortune.svg",
         "categories": [
             {
                 "id": "legend_of_the_veil",
                 "name": "_legend_of_the_veil",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Legend_of_the_Veil_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Legend_of_the_Veil_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "legend_of_the_veil_voyage",
                         "name": "_legend_of_the_veil_voyage",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Legend_of_the_Veil.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Legend_of_the_Veil.webp",
                         "length": 5,
                         "description": "_legend_of_the_veil_voyage_description",
                         "rpc": "_legend_of_the_veil_voyage_rpc"
@@ -616,12 +616,12 @@
             {
                 "id": "voyage_of_legends",
                 "name": "_voyage_of_legends",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Voyage_of_Legends_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Voyage_of_Legends_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "a_voyage_of_legends",
                         "name": "_a_voyage_of_legends",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Voyage_of_Legends.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Voyage_of_Legends.webp",
                         "length": 5,
                         "description": "_a_voyage_of_legends_description",
                         "rpc": "_a_voyage_of_legends_rpc"
@@ -629,7 +629,7 @@
                     {
                         "id": "an_ashen_voyage_of_legends",
                         "name": "_an_ashen_voyage_of_legends",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Voyage_of_Legends.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Voyage_of_Legends.webp",
                         "length": 5,
                         "description": "_an_ashen_voyage_of_legends_description",
                         "rpc": "_an_ashen_voyage_of_legends_rpc"
@@ -639,12 +639,12 @@
             {
                 "id": "athenas_fortune_raid",
                 "name": "_athenas_fortune_raid",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Athenas_Fortune_Raid_Voyage_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Athenas_Fortune_Raid_Voyage_icon.png",
                 "activities": [
                     {
                         "id": "a_raid_on_a_sea_fort",
                         "name": "_a_raid_on_a_sea_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sea_Fort.webp",
                         "length": 3,
                         "description": "_a_raid_on_a_sea_fort_description",
                         "rpc": "_a_raid_on_a_sea_fort_for_athenas_fortune_rpc"
@@ -652,7 +652,7 @@
                     {
                         "id": "an_adventure_to_a_sunken_shrine",
                         "name": "_an_adventure_to_a_sunken_shrine",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Adventure_to_a_Sunken_Shrine.webp",
                         "length": 4,
                         "description": "_an_adventure_to_a_sunken_shrine_description",
                         "rpc": "_an_adventure_to_a_sunken_shrine_for_athenas_fortune_rpc"
@@ -660,7 +660,7 @@
                     {
                         "id": "a_raid_on_a_sunken_treasury",
                         "name": "_a_raid_on_a_sunken_treasury",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sunken_Treasury.webp",
                         "length": 4,
                         "description": "_a_raid_on_a_sunken_treasury_description",
                         "rpc": "_a_raid_on_a_sunken_treasury_for_athenas_fortune_rpc"
@@ -668,7 +668,7 @@
                     {
                         "id": "a_duel_with_an_ashen_lord",
                         "name": "_a_duel_with_an_ashen_lord",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Duel_with_an_Ashen_Lord.webp",
                         "length": 3,
                         "description": "_a_duel_with_an_ashen_lord_description",
                         "rpc": "_a_duel_with_an_ashen_lord_for_athenas_fortune_rpc"
@@ -676,7 +676,7 @@
                     {
                         "id": "a_raid_on_a_skeleton_fort",
                         "name": "_a_raid_on_a_skeleton_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Skeleton_Fort.webp",
                         "length": 4,
                         "description": "_a_raid_on_a_skeleton_fort_description",
                         "rpc": "_a_raid_on_a_skeleton_fort_for_athenas_fortune_rpc"
@@ -684,7 +684,7 @@
                     {
                         "id": "a_battle_with_a_skeleton_fleet",
                         "name": "_a_battle_with_a_skeleton_fleet",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_a_Skeleton_Fleet.webp",
                         "length": 4,
                         "description": "_a_battle_with_a_skeleton_fleet_description",
                         "rpc": "_a_battle_with_a_skeleton_fleet_for_athenas_fortune_rpc"
@@ -692,7 +692,7 @@
                     {
                         "id": "a_battle_with_the_burning_blades_armada",
                         "name": "_a_battle_with_the_burning_blades_armada",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
                         "length": 5,
                         "description": "_a_battle_with_the_burning_blades_armada_description",
                         "rpc": "_a_battle_with_the_burning_blades_armada_for_athenas_fortune_rpc"
@@ -704,18 +704,18 @@
     {
         "id":"hunters_call",
         "name":"_hunters_call",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/hunters_call.webp",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/hunters-call.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/hunters_call.webp",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/hunters-call.svg",
         "categories": [
             {
                 "id": "fishing_category",
                 "name": "_fishing_category",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Fishing_icon.webp",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Fishing_icon.webp",
                 "activities": [
                     {
                         "id": "a_fishing_voyage",
                         "name": "_a_fishing_voyage",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Fishing.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Fishing.jpg",
                         "length": 1,
                         "description": "_a_fishing_voyage_description",
                         "rpc": "_a_fishing_voyage_rpc"
@@ -727,18 +727,18 @@
     {
         "id": "bilge_rats",
         "name": "_bilge_rats",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/bilge_rats.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/bilge-rats.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/bilge_rats.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/bilge-rats.svg",
         "categories": [
             {
                 "id": "world_events",
                 "name": "_world_events",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/World_Events_icon.webp",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/World_Events_icon.webp",
                 "activities": [
                     {
                         "id": "skeleton_fort",
                         "name": "_skeleton_fort",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Skeleton_Fort.webp",
                         "length": 4,
                         "description": "_skeleton_fort_description",
                         "rpc": "_skeleton_fort_rpc"
@@ -746,7 +746,7 @@
                     {
                         "id": "fort_of_fortune",
                         "name": "_fort_of_fortune",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Fort_of_Fortune.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Fort_of_Fortune.jpg",
                         "length": 4,
                         "description": "_fort_of_fortune_description",
                         "rpc": "_fort_of_fortune_rpc"
@@ -754,7 +754,7 @@
                     {
                         "id": "skeleton_fleet",
                         "name": "_skeleton_fleet",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_a_Skeleton_Fleet.webp",
                         "length": 4,
                         "description": "_skeleton_fleet_description",
                         "rpc": "_skeleton_fleet_rpc"
@@ -762,7 +762,7 @@
                     {
                         "id": "fleet_of_fortune",
                         "name": "_fleet_of_fortune",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Fleet_of_Fortune.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Fleet_of_Fortune.png",
                         "length": 4,
                         "description": "_fleet_of_fortune_description",
                         "rpc": "_fleet_of_fortune_rpc"
@@ -770,7 +770,7 @@
                     {
                         "id": "ghost_fleet",
                         "name": "_ghost_fleet",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Battle_with_a_Ghost_Armada.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Battle_with_a_Ghost_Armada.webp",
                         "length": 4,
                         "description": "_ghost_fleet_description",
                         "rpc": "_ghost_fleet_rpc"
@@ -778,7 +778,7 @@
                     {
                         "id":"ashen_winds",
                         "name":"_ashen_winds",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Duel_with_an_Ashen_Lord.webp",
                         "length": 4,
                         "description":"_ashen_winds_description",
                         "rpc":"_ashen_winds_rpc"
@@ -786,7 +786,7 @@
                     {
                         "id": "burning_blade",
                         "name": "_burning_blade",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Burning_Blade.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Burning_Blade.jpg",
                         "length": 4,
                         "description": "_burning_blade_description",
                         "rpc": "_burning_blade_rpc"
@@ -796,12 +796,12 @@
             {
                 "id": "raids",
                 "name": "_raids",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Raids_icon.webp",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Raids_icon.webp",
                 "activities":[
                     {
                         "id": "fort_of_the_damned",
                         "name": "_fort_of_the_damned",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Fort_of_the_Damned.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Fort_of_the_Damned.jpg",
                         "length": 4,
                         "description": "_fort_of_the_damned_description",
                         "rpc": "_fort_of_the_damned_rpc"
@@ -809,7 +809,7 @@
                     {
                         "id":"sea_fort",
                         "name":"_sea_fort",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "image":"https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sea_Fort.webp",
                         "length": 3,
                         "description":"_sea_fort_description",
                         "rpc":"_sea_fort_rpc"
@@ -817,7 +817,7 @@
                     {
                         "id": "sunken_shrine",
                         "name": "_sunken_shrine",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/An_Adventure_to_a_Sunken_Shrine.webp",
                         "length": 4,
                         "description": "_sunken_shrine_description",
                         "rpc": "_sunken_shrine_rpc"
@@ -825,7 +825,7 @@
                     {
                         "id": "sunken_treasury",
                         "name": "_sunken_treasury",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Raid_on_a_Sunken_Treasury.webp",
                         "length": 4,
                         "description": "_sunken_treasury_description",
                         "rpc": "_sunken_treasury_rpc"
@@ -835,12 +835,12 @@
             {
                 "id": "emergent_encounters",
                 "name": "_emergent_encounters",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Emergent_Encounters_icon.webp",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Emergent_Encounters_icon.webp",
                 "activities": [
                     {
                         "id": "skeleton_ship",
                         "name": "_skeleton_ship",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Skeleton_Ship.jpeg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Skeleton_Ship.jpeg",
                         "length": 2,
                         "description": "_skeleton_ship_description",
                         "rpc": "_skeleton_ship_rpc"
@@ -848,7 +848,7 @@
                     {
                         "id": "megalodon",
                         "name": "_megalodon",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Megalodon.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Megalodon.jpg",
                         "length": 2,
                         "description": "_megalodon_description",
                         "rpc": "_megalodon_rpc"
@@ -856,7 +856,7 @@
                     {
                         "id": "kraken",
                         "name": "_kraken",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Kraken.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Kraken.jpg",
                         "length": 2,
                         "description": "_kraken_description",
                         "rpc": "_kraken_rpc"
@@ -868,18 +868,18 @@
     {
         "id": "tall_tales",
         "name": "_tall_tales",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/tall_tales.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/tall-tales.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/tall_tales.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/tall-tales.svg",
         "categories": [
             {
                 "id": "the_legend_of_monkey_island",
                 "name": "_the_legend_of_monkey_island",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/The_Legend_of_Monkey_Island_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/The_Legend_of_Monkey_Island_icon.png",
                 "activities": [
                     {
                         "id": "the_journey_to_melee_island",
                         "name": "_the_journey_to_melee_island",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Journey_to_Melee_Island.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Journey_to_Melee_Island.webp",
                         "length": 5,
                         "description": "_the_journey_to_melee_island_description",
                         "rpc": "_the_journey_to_melee_island_rpc"
@@ -887,7 +887,7 @@
                     {
                         "id": "the_quest_for_guybrush",
                         "name": "_the_quest_for_guybrush",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Quest_for_Guybrush.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Quest_for_Guybrush.webp",
                         "length": 5,
                         "description": "_the_quest_for_guybrush_description",
                         "rpc": "_the_quest_for_guybrush_rpc"
@@ -895,7 +895,7 @@
                     {
                         "id": "the_lair_of_lechuck",
                         "name": "_the_lair_of_lechuck",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Lair_of_LeChuck.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Lair_of_LeChuck.png",
                         "length": 5,
                         "description": "_the_lair_of_lechuck_description",
                         "rpc": "_the_lair_of_lechuck_rpc"
@@ -905,12 +905,12 @@
             {
                 "id": "a_pirates_life",
                 "name": "_a_pirates_life",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/A_Pirates_Life_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/A_Pirates_Life_icon.png",
                 "activities": [
                     {
                         "id": "a_pirates_life_tall_tale",
                         "name": "_a_pirates_life_tall_tale",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/A_Pirates_Life.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/A_Pirates_Life.png",
                         "length": 5,
                         "description": "_a_pirates_life_tall_tale_description",
                         "rpc": "_a_pirates_life_tall_tale_rpc"
@@ -918,7 +918,7 @@
                     {
                         "id": "the_sunken_pearl",
                         "name": "_the_sunken_pearl",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Sunken_Pearl.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Sunken_Pearl.png",
                         "length": 5,
                         "description": "_the_sunken_pearl_description",
                         "rpc": "_the_sunken_pearl_rpc"
@@ -926,7 +926,7 @@
                     {
                         "id": "captains_of_the_damned",
                         "name": "_captains_of_the_damned",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Captains_of_the_Damned.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Captains_of_the_Damned.png",
                         "length": 5,
                         "description": "_captains_of_the_damned_description",
                         "rpc": "_captains_of_the_damned_rpc"
@@ -934,7 +934,7 @@
                     {
                         "id": "dark_brethren",
                         "name": "_dark_brethren",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Dark_Brethren.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Dark_Brethren.png",
                         "length": 5,
                         "description": "_dark_brethren_description",
                         "rpc": "_dark_brethren_rpc"
@@ -942,7 +942,7 @@
                     {
                         "id": "lords_of_the_sea",
                         "name": "_lords_of_the_sea",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Lords_of_the_Sea.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Lords_of_the_Sea.png",
                         "length": 5,
                         "description": "_lords_of_the_sea_description",
                         "rpc": "_lords_of_the_sea_rpc"
@@ -952,12 +952,12 @@
             {
                 "id": "ashen_age",
                 "name": "_ashen_age",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Ashen_Age_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Ashen_Age_icon.png",
                 "activities": [
                     {
                         "id": "the_seabound_soul",
                         "name": "_the_seabound_soul",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Seabound_Soul.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Seabound_Soul.jpg",
                         "length": 5,
                         "description": "_the_seabound_soul_description",
                         "rpc": "_the_seabound_soul_rpc"
@@ -965,7 +965,7 @@
                     {
                         "id": "heart_of_fire",
                         "name": "_heart_of_fire",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Heart_of_Fire.jpg",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Heart_of_Fire.jpg",
                         "length": 5,
                         "description": "_heart_of_fire_description",
                         "rpc": "_heart_of_fire_rpc"
@@ -975,12 +975,12 @@
             {
                 "id": "shores_of_gold",
                 "name": "_shores_of_gold",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Shores_of_Gold_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Shores_of_Gold_icon.png",
                 "activities": [
                     {
                         "id": "the_shroudbreaker",
                         "name": "_the_shroudbreaker",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Shroudbreaker.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Shroudbreaker.webp",
                         "length": 5,
                         "description": "_the_shroudbreaker_description",
                         "rpc": "_the_shroudbreaker_rpc"
@@ -988,7 +988,7 @@
                     {
                         "id": "the_cursed_rogue",
                         "name": "_the_cursed_rogue",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Cursed_Rogue.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Cursed_Rogue.png",
                         "length": 5,
                         "description": "_the_cursed_rogue_description",
                         "rpc": "_the_cursed_rogue_rpc"
@@ -996,7 +996,7 @@
                     {
                         "id": "the_legendary_storyteller",
                         "name": "_the_legendary_storyteller",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Legendary_Storyteller.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Legendary_Storyteller.png",
                         "length": 5,
                         "description": "_the_legendary_storyteller_description",
                         "rpc": "_the_legendary_storyteller_rpc"
@@ -1004,7 +1004,7 @@
                     {
                         "id": "stars_of_a_thief",
                         "name": "_stars_of_a_thief",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Stars_of_a_Thief.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Stars_of_a_Thief.webp",
                         "length": 5,
                         "description": "_stars_of_a_thief_description",
                         "rpc": "_stars_of_a_thief_rpc"
@@ -1012,7 +1012,7 @@
                     {
                         "id": "wild_rose",
                         "name": "_wild_rose",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Wild_Rose.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Wild_Rose.png",
                         "length": 5,
                         "description": "_wild_rose_description",
                         "rpc": "_wild_rose_rpc"
@@ -1020,7 +1020,7 @@
                     {
                         "id": "the_art_of_the_trickster",
                         "name": "_the_art_of_the_trickster",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Art_of_the_Trickster.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Art_of_the_Trickster.png",
                         "length": 5,
                         "description": "_the_art_of_the_trickster_description",
                         "rpc": "_the_art_of_the_trickster_rpc"
@@ -1028,7 +1028,7 @@
                     {
                         "id": "the_fate_of_the_morningstar",
                         "name": "_the_fate_of_the_morningstar",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/The_Fate_of_the_Morningstar.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/The_Fate_of_the_Morningstar.png",
                         "length": 5,
                         "description": "_the_fate_of_the_morningstar_description",
                         "rpc": "_the_fate_of_the_morningstar_rpc"
@@ -1036,7 +1036,7 @@
                     {
                         "id": "revenge_of_the_morningstar",
                         "name": "_revenge_of_the_morningstar",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Revenge_of_the_Morningstar.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Revenge_of_the_Morningstar.png",
                         "length": 5,
                         "description": "_revenge_of_the_morningstar_description",
                         "rpc": "_revenge_of_the_morningstar_rpc"
@@ -1044,7 +1044,7 @@
                     {
                         "id": "shores_of_gold_tall_tale",
                         "name": "_shores_of_gold_tall_tale",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Shores_of_Gold.webp",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Shores_of_Gold.webp",
                         "length": 5,
                         "description": "_shores_of_gold_tall_tale_description",
                         "rpc": "_shores_of_gold_tall_tale_rpc"
@@ -1056,18 +1056,18 @@
     {
         "id": "pirate_lord_hourglass",
         "name": "_pirate_lord_hourglass",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/pirate_lord_hourglass.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/pirate-lord-hourglass.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/pirate_lord_hourglass.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/pirate-lord-hourglass.svg",
         "categories": [
             {
                 "id": "pirate_lord_hourglass",
                 "name": "_pirate_lord_hourglass",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Pirate_Lord_Hourglass_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Pirate_Lord_Hourglass_icon.png",
                 "activities": [
                     {
                         "id": "pirate_lord_hourglass_attack",
                         "name": "_pirate_lord_hourglass_attack",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Defense_Pirate_Lord_Hourglass.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Defense_Pirate_Lord_Hourglass.png",
                         "length": 5,
                         "description": "_pirate_lord_hourglass_attack_description",
                         "rpc": "_pirate_lord_hourglass_attack_rpc"
@@ -1075,7 +1075,7 @@
                     {
                         "id": "pirate_lord_hourglass_defense",
                         "name": "_pirate_lord_hourglass_defense",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Defense_Pirate_Lord_Hourglass.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Defense_Pirate_Lord_Hourglass.png",
                         "length": 5,
                         "description": "_pirate_lord_hourglass_defense_description",
                         "rpc": "_pirate_lord_hourglass_defense_rpc"
@@ -1087,18 +1087,18 @@
     {
         "id": "flameheart_hourglass",
         "name": "_flameheart_hourglass",
-        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/icons/flameheart_hourglass.png",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/companies/flameheart-hourglass.svg",
+        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/icons/flameheart_hourglass.png",
+        "background_image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/companies/flameheart-hourglass.svg",
         "categories": [
             {
                 "id": "flameheart_hourglass",
                 "name": "_flameheart_hourglass",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/categories/Flameheart_Hourglass_icon.png",
+                "icon": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/categories/Flameheart_Hourglass_icon.png",
                 "activities": [
                     {
                         "id": "flameheart_hourglass_attack",
                         "name": "_flameheart_hourglass_attack",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Defense_Flameheart_Hourglass.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Defense_Flameheart_Hourglass.png",
                         "length": 5,
                         "description": "_flameheart_hourglass_attack_description",
                         "rpc": "_flameheart_hourglass_attack_rpc"
@@ -1106,7 +1106,7 @@
                     {
                         "id": "flameheart_hourglass_defense",
                         "name": "_flameheart_hourglass_defense",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/RPC_Express/main/assets/activities/Defense_Flameheart_Hourglass.png",
+                        "image": "https://alexisl61.github.io/RPC_Express/assets/sea_of_thieves/activities/Defense_Flameheart_Hourglass.png",
                         "length": 5,
                         "description": "_flameheart_hourglass_defense_description",
                         "rpc": "_flameheart_hourglass_defense_rpc"

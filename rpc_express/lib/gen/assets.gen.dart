@@ -70,6 +70,9 @@ class $AssetsTranslationsGen {
 class $AssetsCommonIconsGen {
   const $AssetsCommonIconsGen();
 
+  /// File path: assets/common/icons/discord.svg
+  String get discord => 'assets/common/icons/discord.svg';
+
   /// File path: assets/common/icons/helldivers_icon.png
   AssetGenImage get helldiversIcon =>
       const AssetGenImage('assets/common/icons/helldivers_icon.png');
@@ -83,8 +86,8 @@ class $AssetsCommonIconsGen {
       const AssetGenImage('assets/common/icons/the_finals_icon.png');
 
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [helldiversIcon, seaOfThievesIcon, theFinalsIcon];
+  List<dynamic> get values =>
+      [discord, helldiversIcon, seaOfThievesIcon, theFinalsIcon];
 }
 
 class $AssetsHelldiversButtonsGen {

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:rpc_express/pages/helldivers/activity_select/difficulty_activity_select_page.dart';
-import 'package:rpc_express/pages/helldivers/activity_select/difficulty_activity_select_page_view_model.dart';
 import 'package:rpc_express/pages/helldivers/activity_select/planet_select_page.dart';
 import 'package:rpc_express/pages/home/home.dart';
 import 'package:easy_localization/easy_localization.dart';

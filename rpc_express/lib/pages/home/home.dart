@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rpc_express/components/common/molecules/game_selection_container.dart';
+import 'package:rpc_express/components/common/molecules/information_container.dart';
+import 'package:rpc_express/components/common/organisms/discord_container.dart';
 import 'package:rpc_express/model/class/games/game_object.dart';
 import 'package:rpc_express/model/mvvm/widget_event_observer.dart';
 import 'package:rpc_express/pages/helldivers/home/home_page.dart';
@@ -32,6 +34,8 @@ class _HomePageState extends WidgetEventObserver<HomePage> {
     return Scaffold(
       body: Stack(alignment: Alignment.bottomCenter, children: [
         _buildGamePage(),
+        _buildDiscordContainer(),
+        _buildInformationContainer(),
         _buildGameList(),
       ]),
     );
@@ -48,6 +52,16 @@ class _HomePageState extends WidgetEventObserver<HomePage> {
       ),
     );
   }
+
+
+  Widget _buildDiscordContainer(){
+    return Positioned(bottom: 20, right: 20, child: DiscordContainer(game: viewModel.selectedGame));
+  }
+
+  Widget _buildInformationContainer(){
+    return Positioned(bottom: 20, left: 20, child: InformationContainer(game: viewModel.selectedGame));
+  }
+
 
   Widget _buildGamePage(){
     if (viewModel.isLoadingGame){

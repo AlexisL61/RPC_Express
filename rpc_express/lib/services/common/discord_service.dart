@@ -5,10 +5,14 @@ import 'package:rpc_express/model/class/user_data/user_data.dart';
 abstract class DiscordService {
   void initialize(String clientId);
   void updateRpc(UserData userData);
+  void addRpcListener(Function(UserData?) listener);
+  void removeRpcListener(Function(UserData?) listener);
 }
 
 class DiscordServiceImpl implements DiscordService {
   DiscordRPC? discordRpc;
+  List<Function(UserData?)> rpcListeners = [];
+  bool showRpcExpressButton = true;
 
   @override
   void initialize(String clientId) {
@@ -17,12 +21,11 @@ class DiscordServiceImpl implements DiscordService {
     }
     discordRpc = DiscordRPC(applicationId: clientId);
     discordRpc!.start(autoRegister: true);
+    notifyListeners(null);
   }
 
   @override
   void updateRpc(UserData userData) {
-    print("Updating RPC");
-    
     discordRpc!.updatePresence(DiscordPresence(
       details: userData.getRpcDetails(),
       state: userData.getRpcState(),
@@ -32,5 +35,21 @@ class DiscordServiceImpl implements DiscordService {
       smallImageText: userData.getRpcSmallImageText(),
       startTimeStamp: DateTime.now().millisecondsSinceEpoch,
     ));
+
+    notifyListeners(userData);
+  }
+
+  void addRpcListener(Function(UserData?) listener) {
+    rpcListeners.add(listener);
+  }
+
+  void removeRpcListener(Function(UserData?) listener) {
+    rpcListeners.remove(listener);
+  }
+
+  void notifyListeners(UserData? userData) {
+    rpcListeners.forEach((Function(UserData?) listener) {
+      listener(userData);
+    });
   }
 }

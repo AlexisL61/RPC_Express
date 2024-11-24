@@ -64,7 +64,7 @@ class _SeaOfThievesHomePageState extends WidgetEventObserver<SeaOfThievesHomePag
 
   Widget _buildUpperPanel() {
     return Column(children: [
-      Text(tr("_app_title"), style: SotTextStyles.mediumWhite),
+      Text("Sea of Thieves", style: SotTextStyles.mediumWhite),
       SizedBox(height: 20),
       SeaOfThievesSeparator(icon: Assets.seaOfThieves.icons.sloop),
       SizedBox(height: 40),

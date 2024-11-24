@@ -1,7 +1,10 @@
 {
-    "_app_title": "Sea of Thieves Rich Presence",
-    "_app_description": "An open-source rich presence app for Sea of Thieves",
+    "_app_title": "RPC Express",
+    "_app_description": "Manual Discord rich presence for Sea of Thieves, Helldivers 2 and The Finals",
     "_app_developer": "Made by {developer}",
+
+    "_app_rich_presence": "Rich Presence",
+    "_app_rich_presence_unknown": "Select an activity to start displaying your rich presence",
 
     "_sot_ship":"Ship",
     "_no_ship_selected":"No ship selected",

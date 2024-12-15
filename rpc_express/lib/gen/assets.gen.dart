@@ -132,6 +132,10 @@ class $AssetsHelldiversImagesGen {
   AssetGenImage get helldiverDecorated =>
       const AssetGenImage('assets/helldivers/images/helldiver_decorated.webp');
 
+  /// File path: assets/helldivers/images/illuminate_icon.webp
+  AssetGenImage get illuminateIcon =>
+      const AssetGenImage('assets/helldivers/images/illuminate_icon.webp');
+
   /// File path: assets/helldivers/images/liberation_icon.webp
   AssetGenImage get liberationIcon =>
       const AssetGenImage('assets/helldivers/images/liberation_icon.webp');
@@ -156,6 +160,7 @@ class $AssetsHelldiversImagesGen {
         flag,
         helldiver,
         helldiverDecorated,
+        illuminateIcon,
         liberationIcon,
         starfield,
         superhearthIcon,

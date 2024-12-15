@@ -5,6 +5,7 @@ enum HelldiversFactions {
   humans(name: "Humans"),
   terminids(name: "Terminids"),
   automatons(name: "Automaton"),
+  illuminates(name: "Illuminate"),
   unknown(name: "Unknown");
 
   final String name;
@@ -19,6 +20,8 @@ enum HelldiversFactions {
         return HelldiversFactions.terminids;
       case 'Automaton':
         return HelldiversFactions.automatons;
+      case 'Illuminate':
+        return HelldiversFactions.illuminates;
       case 'Unknown':
         return HelldiversFactions.unknown;
     }
@@ -35,6 +38,8 @@ extension HelldiversFactionsExtension on HelldiversFactions {
         return Assets.helldivers.images.terminidIcon.path;
       case HelldiversFactions.automatons:
         return Assets.helldivers.images.automatonIcon.path;
+      case HelldiversFactions.illuminates:
+        return Assets.helldivers.images.illuminateIcon.path;
       case HelldiversFactions.unknown:
         return Assets.helldivers.images.superhearthIcon.path;
     }
@@ -48,6 +53,8 @@ extension HelldiversFactionsExtension on HelldiversFactions {
         return const Color(0xFFfe6d72);
       case HelldiversFactions.terminids:
         return const Color(0xFFffc100);
+      case HelldiversFactions.illuminates:
+        return const Color(0xFFac47fe);
       case HelldiversFactions.unknown:
         return const Color.fromARGB(255, 182, 182, 182);
     }
